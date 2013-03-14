@@ -2497,5 +2497,21 @@
 		<summary>Convert between RGB, YUV, HSL and HEX color defining with these JavaScript functions under MIT-License</summary>
 	</entry>
 
+	<entry>
+		<title>CSSfilter.js</title>
+		<link href="https://github.com/SimonWaldherr/CSSfilter.js" />
+		<id>urn:uuid:d1d1a190-8cd7-11e2-9594-59f289efd02b</id>
+		<updated>2013-03-14'T'18:48:19Z</updated>
+		<summary>CSSfilter.js helps you, adding CSS filters to images (or other elements)</summary>
+	</entry>
+
+	<entry>
+		<title>PullToRefresh</title>
+		<link href="https://github.com/SimonWaldherr/PullToRefresh" />
+		<id>urn:uuid:d207a5b0-8cd7-11e2-9594-59f289efd02b</id>
+		<updated>2013-03-14'T'18:48:19Z</updated>
+		<summary>a JavaScript implementation of PullToRefresh without jQuery or other Frameworks and under MIT-License.</summary>
+	</entry>
+
 
 </feed>
