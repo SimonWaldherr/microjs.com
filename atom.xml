@@ -2513,5 +2513,13 @@
 		<summary>a JavaScript implementation of PullToRefresh without jQuery or other Frameworks and under MIT-License.</summary>
 	</entry>
 
+	<entry>
+		<title>disTime.js</title>
+		<link href="https://github.com/SimonWaldherr/disTime.js" />
+		<id>urn:uuid:5072b160-8e5e-11e2-9353-754a9647a477</id>
+		<updated>2013-03-16'T'17:24:00Z</updated>
+		<summary>converts and updates UNIX-Timestamps to strings like &apos; 5 days ago &apos; in three languages (en, de, it)</summary>
+	</entry>
+
 
 </feed>
