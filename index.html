@@ -591,12 +591,12 @@
         if (!kw || !kw.length) return arr
         var kwre = [], l, i
         // turn keywords into matchers
-        kw.forEach(function (k) { kwre.push(new RegExp(' [^ ]*' + k.replace(/[^\w\-\.]/g, '') + '[^ ]* ')) })
+        kw.forEach(function (k) { kwre.push(new RegExp(' [^ ]*' + k.replace(/[^\w\-\.]/g, '').toLowerCase() + '[^ ]* ')) })
         l = kwre.length
         // perform an AND search for all keywords
         return arr.filter(function (el) {
           for (i = 0; i < l; i++)
-            if (!kwre[i].test(el._ss)) return false
+            if (!kwre[i].test(el._ss.toLowerCase())) return false
           return true
         })
       }

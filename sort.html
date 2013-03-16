@@ -1,0 +1,24 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>sort MicroJS</title>
+  <script src="data-min.js"></script>
+  <script>
+    function valueOfString(string) {
+        var chars, int = 0, i, length;
+        for(i=0;i<string.length;i+=1) {
+            int = int+parseInt(string.charCodeAt(i),10);
+        }
+        return parseInt(int, 10);
+    }
+    
+    function init() {
+      document.getElementById('foo').innerHTML = JSON.stringify(MicroJS.sort(function(a,b) { return valueOfString(a.name) - valueOfString(b.name) } )).replace(/},{/g, '},\n<br/>\n{').replace(/\",\"/g, '",\n<br/>\n"');
+    }
+    
+  </script>
+</head>
+<body onload="init();">
+  <code id="foo"></code>
+</body>
+</html>
