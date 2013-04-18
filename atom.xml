@@ -2600,5 +2600,21 @@
 		<summary>converts and updates UNIX-Timestamps to strings like &apos; 5 days ago &apos; in three languages (en, de, it)</summary>
 	</entry>
 
+	<entry>
+		<title>jXHR</title>
+		<link href="https://gist.github.com/marianoviola/1576277" />
+		<id>urn:uuid:59026b40-a835-11e2-9888-ab1ada3979a0</id>
+		<updated>2013-04-18'T'14:36:16Z</updated>
+		<summary>JSON-P based cross-domain Ajax wrapped in the XHR API.</summary>
+	</entry>
+
+	<entry>
+		<title>imgResize.js</title>
+		<link href="https://github.com/SimonWaldherr/imgResize.js" />
+		<id>urn:uuid:5b64c540-a835-11e2-9888-ab1ada3979a0</id>
+		<updated>2013-04-18'T'14:36:16Z</updated>
+		<summary>Resize images in a Canvas based on edge detection.</summary>
+	</entry>
+
 
 </feed>
