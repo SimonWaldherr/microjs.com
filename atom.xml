@@ -1443,14 +1443,6 @@
 	</entry>
 
 	<entry>
-		<title>Smoke Signals</title>
-		<link href="https://github.com/bentomas/smokesignals" />
-		<id>urn:uuid:2a0f5410-6da3-11e1-9073-7b390312a32a</id>
-		<updated>2012-03-14'T'06:58:40Z</updated>
-		<summary>Really, really lightweight event emitting</summary>
-	</entry>
-
-	<entry>
 		<title>CSSClass</title>
 		<link href="https://github.com/EarMaster/CSSClass" />
 		<id>urn:uuid:cc1c1440-6e8a-11e1-aa5e-d749ddd29d97</id>
@@ -1659,14 +1651,6 @@
 	</entry>
 
 	<entry>
-		<title>fader.js</title>
-		<link href="https://github.com/lukasalexandre/fader.js" />
-		<id>urn:uuid:5b39c1f0-9a18-11e1-9295-ef5086639395</id>
-		<updated>2012-05-09'T'20:48:17Z</updated>
-		<summary>A micro js to fade in and out elements.</summary>
-	</entry>
-
-	<entry>
 		<title>microtext.js</title>
 		<link href="https://github.com/rodrigoalvesvieira/microtext.js/" />
 		<id>urn:uuid:6ca48e30-9a8f-11e1-b280-1f2ad5fbea19</id>
@@ -1712,14 +1696,6 @@
 		<id>urn:uuid:bb8c6900-a7eb-11e1-98fb-cf55b8b12b1f</id>
 		<updated>2012-05-27'T'11:04:10Z</updated>
 		<summary>Event Emitter Class for the browser based on NodeJS EventEmitter</summary>
-	</entry>
-
-	<entry>
-		<title>TemporizedSlider.js</title>
-		<link href="https://github.com/lukasalexandre/TemporizedSlider.js" />
-		<id>urn:uuid:f2a66860-ad26-11e1-af07-11184ea87875</id>
-		<updated>2012-06-03'T'02:50:38Z</updated>
-		<summary>A micro library that implements a customizable temporized image slider, with custom text and title for each one.</summary>
 	</entry>
 
 	<entry>
@@ -2630,6 +2606,30 @@
 		<id>urn:uuid:707a3560-a9dd-11e2-b0fc-330431afe2b2</id>
 		<updated>2013-04-20'T'17:11:41Z</updated>
 		<summary>TimeJump adds deep-linking to HTML5 audio and video podcasts.</summary>
+	</entry>
+
+	<entry>
+		<title>Smoke Signals</title>
+		<link href="https://bitbucket.org/bentomas/smokesignals.js" />
+		<id>urn:uuid:319b26c0-a9e6-11e2-9960-ad1293b9c88f</id>
+		<updated>2013-04-20'T'18:14:39Z</updated>
+		<summary>Really, really lightweight event emitting</summary>
+	</entry>
+
+	<entry>
+		<title>fader.js</title>
+		<link href="http://lukelex.github.io/fader.js/" />
+		<id>urn:uuid:32ec37d0-a9e6-11e2-9960-ad1293b9c88f</id>
+		<updated>2013-04-20'T'18:14:39Z</updated>
+		<summary>A micro library to fade elements in and out.</summary>
+	</entry>
+
+	<entry>
+		<title>TemporizedSlider.js</title>
+		<link href="http://lukelex.github.io/TemporizedSlider.js" />
+		<id>urn:uuid:32ec5ee0-a9e6-11e2-9960-ad1293b9c88f</id>
+		<updated>2013-04-20'T'18:14:39Z</updated>
+		<summary>A micro library that implements a customizable temporized image slider, with custom text and title for each one.</summary>
 	</entry>
 
 
