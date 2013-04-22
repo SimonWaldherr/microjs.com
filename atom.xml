@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Microjs</title>
-  <subtitle>Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!</subtitle>
-  <link href="http://microjs.com/atom.xml" rel="self" />
-  <link href="http://microjs.com/" />
-  <id>urn:uuid:15dfd290-5830-11e1-be28-87435970e5ad</id>
-  <updated>2003-12-13T18:30:02Z</updated>
-  <author>
-    <name>Thomas Fuchs</name>
-  </author>
+	<title>Microjs</title>
+	<subtitle>Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!</subtitle>
+	<link href="http://microjs.com/atom.xml" rel="self" />
+	<link href="http://microjs.com/" />
+	<id>urn:uuid:15dfd290-5830-11e1-be28-87435970e5ad</id>
+	<updated>2003-12-13T18:30:02Z</updated>
+	<author>
+		<name>Thomas Fuchs</name>
+	</author>
 
 	<entry>
 		<title>Simplify.js</title>
@@ -1424,7 +1424,7 @@
 		<id>urn:uuid:11daea50-6711-11e1-85ca-438f8c211b62</id>
 		<updated>2012-03-05'T'22:17:51Z</updated>
 		<summary>Javascript mvc framework that is meant to help developers to write loosely-coupled applications to increase scalability and maintainability.</summary>
-  </entry>
+	</entry>
 
 	<entry>
 		<title>doT.js</title>
@@ -1440,6 +1440,14 @@
 		<id>urn:uuid:bc09c650-6c56-11e1-86f2-dd64dfc5c5b5</id>
 		<updated>2012-03-12'T'15:19:04Z</updated>
 		<summary>A (really) tiny Javascript MVC microframework. Perfect for mobile.</summary>
+	</entry>
+
+	<entry>
+		<title>Smoke Signals</title>
+		<link href="https://github.com/bentomas/smokesignals" />
+		<id>urn:uuid:2a0f5410-6da3-11e1-9073-7b390312a32a</id>
+		<updated>2012-03-14'T'06:58:40Z</updated>
+		<summary>Really, really lightweight event emitting</summary>
 	</entry>
 
 	<entry>
@@ -1651,6 +1659,14 @@
 	</entry>
 
 	<entry>
+		<title>fader.js</title>
+		<link href="https://github.com/lukasalexandre/fader.js" />
+		<id>urn:uuid:5b39c1f0-9a18-11e1-9295-ef5086639395</id>
+		<updated>2012-05-09'T'20:48:17Z</updated>
+		<summary>A micro js to fade in and out elements.</summary>
+	</entry>
+
+	<entry>
 		<title>microtext.js</title>
 		<link href="https://github.com/rodrigoalvesvieira/microtext.js/" />
 		<id>urn:uuid:6ca48e30-9a8f-11e1-b280-1f2ad5fbea19</id>
@@ -1696,6 +1712,14 @@
 		<id>urn:uuid:bb8c6900-a7eb-11e1-98fb-cf55b8b12b1f</id>
 		<updated>2012-05-27'T'11:04:10Z</updated>
 		<summary>Event Emitter Class for the browser based on NodeJS EventEmitter</summary>
+	</entry>
+
+	<entry>
+		<title>TemporizedSlider.js</title>
+		<link href="https://github.com/lukasalexandre/TemporizedSlider.js" />
+		<id>urn:uuid:f2a66860-ad26-11e1-af07-11184ea87875</id>
+		<updated>2012-06-03'T'02:50:38Z</updated>
+		<summary>A micro library that implements a customizable temporized image slider, with custom text and title for each one.</summary>
 	</entry>
 
 	<entry>
@@ -2553,84 +2577,83 @@
 	</entry>
 
 	<entry>
-		<title>CSSfilter.js</title>
-		<link href="https://github.com/SimonWaldherr/CSSfilter.js" />
-		<id>urn:uuid:d1d1a190-8cd7-11e2-9594-59f289efd02b</id>
-		<updated>2013-03-14'T'18:48:19Z</updated>
-		<summary>CSSfilter.js helps you, adding CSS filters to images (or other elements)</summary>
+		<title>OneDollar.js</title>
+		<link href="https://github.com/voidplus/onedollar-coffeescript" />
+		<id>urn:uuid:13b94520-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
+		<summary>A JavaScript implementation of the $1 Gesture Recognizer, a two-dimensional template based gesture recognition</summary>
 	</entry>
 
 	<entry>
-		<title>PullToRefresh</title>
-		<link href="https://github.com/SimonWaldherr/PullToRefresh" />
-		<id>urn:uuid:d207a5b0-8cd7-11e2-9594-59f289efd02b</id>
-		<updated>2013-03-14'T'18:48:19Z</updated>
-		<summary>a JavaScript implementation of PullToRefresh without jQuery or other Frameworks and under MIT-License.</summary>
-	</entry>
-
-	<entry>
-		<title>disTime.js</title>
-		<link href="https://github.com/SimonWaldherr/disTime.js" />
-		<id>urn:uuid:5072b160-8e5e-11e2-9353-754a9647a477</id>
-		<updated>2013-03-16'T'17:24:00Z</updated>
-		<summary>converts and updates UNIX-Timestamps to strings like &apos; 5 days ago &apos; in three languages (en, de, it)</summary>
+		<title>iugo.js</title>
+		<link href="http://iugojs.com" />
+		<id>urn:uuid:13b96c30-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
+		<summary>An extremely lightweight one-way data-binding tool without the bloat of a full framework. Makes separating markup from content easy.</summary>
 	</entry>
 
 	<entry>
 		<title>jXHR</title>
 		<link href="https://gist.github.com/marianoviola/1576277" />
-		<id>urn:uuid:59026b40-a835-11e2-9888-ab1ada3979a0</id>
-		<updated>2013-04-18'T'14:36:16Z</updated>
+		<id>urn:uuid:14ad6920-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
 		<summary>JSON-P based cross-domain Ajax wrapped in the XHR API.</summary>
 	</entry>
 
 	<entry>
 		<title>imgResize.js</title>
 		<link href="https://github.com/SimonWaldherr/imgResize.js" />
-		<id>urn:uuid:5b64c540-a835-11e2-9888-ab1ada3979a0</id>
-		<updated>2013-04-18'T'14:36:16Z</updated>
+		<id>urn:uuid:1549f740-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
 		<summary>Resize images in a Canvas based on edge detection.</summary>
 	</entry>
 
 	<entry>
 		<title>tinyOSF.js</title>
 		<link href="https://github.com/shownotes/tinyOSF.js" />
-		<id>urn:uuid:6c83a6d0-a9dd-11e2-b0fc-330431afe2b2</id>
-		<updated>2013-04-20'T'17:11:41Z</updated>
+		<id>urn:uuid:15a33ad0-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
 		<summary>a few lines of code to convert OSF to HTML.</summary>
+	</entry>
+
+	<entry>
+		<title>D.js</title>
+		<link href="http://malko.github.io/D.js/" />
+		<id>urn:uuid:16bb6190-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
+		<summary>A tiny implementation of the Promises/A+ spec for Node.js and the browser, with some extensions to the spec </summary>
 	</entry>
 
 	<entry>
 		<title>TimeJump</title>
 		<link href="https://github.com/davatron5000/TimeJump" />
-		<id>urn:uuid:707a3560-a9dd-11e2-b0fc-330431afe2b2</id>
-		<updated>2013-04-20'T'17:11:41Z</updated>
+		<id>urn:uuid:17ff5340-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
 		<summary>TimeJump adds deep-linking to HTML5 audio and video podcasts.</summary>
 	</entry>
 
 	<entry>
-		<title>Smoke Signals</title>
-		<link href="https://bitbucket.org/bentomas/smokesignals.js" />
-		<id>urn:uuid:319b26c0-a9e6-11e2-9960-ad1293b9c88f</id>
-		<updated>2013-04-20'T'18:14:39Z</updated>
-		<summary>Really, really lightweight event emitting</summary>
+		<title>animx</title>
+		<link href="https://github.com/bjorkstam/animx" />
+		<id>urn:uuid:1828ad30-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
+		<summary>Easily define CSS keyframes and animations during runtime</summary>
 	</entry>
 
 	<entry>
-		<title>fader.js</title>
-		<link href="http://lukelex.github.io/fader.js/" />
-		<id>urn:uuid:32ec37d0-a9e6-11e2-9960-ad1293b9c88f</id>
-		<updated>2013-04-20'T'18:14:39Z</updated>
-		<summary>A micro library to fade elements in and out.</summary>
+		<title>usertiming.js</title>
+		<link href="https://github.com/nicjansma/usertiming.js" />
+		<id>urn:uuid:1854c640-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
+		<summary>User Timing polyfill</summary>
 	</entry>
 
 	<entry>
-		<title>TemporizedSlider.js</title>
-		<link href="http://lukelex.github.io/TemporizedSlider.js" />
-		<id>urn:uuid:32ec5ee0-a9e6-11e2-9960-ad1293b9c88f</id>
-		<updated>2013-04-20'T'18:14:39Z</updated>
-		<summary>A micro library that implements a customizable temporized image slider, with custom text and title for each one.</summary>
+		<title>dombuilder.js</title>
+		<link href="https://github.com/BlueJeansAndRain/dombuilder" />
+		<id>urn:uuid:187609e0-aaf3-11e2-acd3-65389379f67c</id>
+		<updated>2013-04-22'T'02:19:26Z</updated>
+		<summary>A cross between a template engine, JSON markup, and a DOM manipulation tool</summary>
 	</entry>
-
 
 </feed>

@@ -9,12 +9,28 @@
 
 var MicroJS = [
   {
+    name: "OneDollar.js",
+    github: "voidplus/onedollar-coffeescript",
+    tags: ["gesture", "recognition", "recognizer", "multitouch", "interactive", "input", "jquery"],
+    description: "A JavaScript implementation of the &dollar;1 Gesture Recognizer, a two-dimensional template based gesture recognition",
+    url: "https://github.com/voidplus/onedollar-coffeescript",
+    source: "https://raw.github.com/voidplus/onedollar-coffeescript/master/lib/onedollar.js"
+  },
+  {
     name: "Countable",
     github: "RadLikeWhoa/Countable",
     tags: ["paragraphs", "words", "characters", "counting", "live", "text"],
     description: "Countable is a JavaScript function to add live paragraph-, word- and character-counting to an HTML element.",
     url: "http://radlikewhoa.github.io/Countable",
     source: "https://raw.github.com/RadLikeWhoa/Countable/master/Countable.js"
+  },
+  {
+    name: "iugo.js",
+    github: "chrismichaelscott/iugo",
+    tags: ["MVVC", "data binding", "template"],
+    description: "An extremely lightweight one-way data-binding tool without the bloat of a full framework. Makes separating markup from content easy.",
+    url: "http://iugojs.com",
+    source: "https://raw.github.com/chrismichaelscott/iugo/master/iugo.js"
   },
   {
     name: "Colors.js",
@@ -1892,8 +1908,15 @@ var MicroJS = [
     name: "l.js",
     tags: ["loader"],
     description: "Another Tiny js/css loader supporting aliases, ordered and parallel loading, callbacks ... ",
-    url: "https://github.com/malko/l.js",
+    url: "http://malko.github.io/l.js/",
     source: "https://raw.github.com/malko/l.js/master/l.js"
+  },
+  {
+    name: "D.js",
+    tags: ["Promises","async","promises/A+"],
+    description: "A tiny implementation of the Promises/A+ spec for Node.js and the browser, with some extensions to the spec ",
+    url: "http://malko.github.io/D.js/",
+    source: "https://raw.github.com/malko/D.js/master/lib/D.js"
   },
   {
     name: "ES5-Class",
@@ -2398,5 +2421,26 @@ var MicroJS = [
     description: "DIY presentation micro-framework, harnessing the power of CSS3 transitions.",
     url: "https://github.com/markdalgleish/bespoke.js",
     source: "https://raw.github.com/markdalgleish/bespoke.js/master/dist/bespoke.js"
+  },
+  {
+    name: "usertiming.js",
+    tags: ["usertiming", "user timing", "performance timeline", "window.performance.now", "mark", "measure"],
+    description: "User Timing polyfill",
+    url: "https://github.com/nicjansma/usertiming.js",
+    source: "https://raw.github.com/nicjansma/usertiming.js/master/src/usertiming.js"
+  },
+  {
+    name: "dombuilder.js",
+    tags: ["dom", "template", "serialize", "dom-builder", "jsonml"],
+    description: "A cross between a template engine, JSON markup, and a DOM manipulation tool",
+    url: "https://github.com/BlueJeansAndRain/dombuilder",
+    source: "https://raw.github.com/BlueJeansAndRain/dombuilder/master/dombuilder.js"
+  },
+  {
+    name: "animx",
+    tags: ["animation", "css3"],
+    description: "Easily define CSS keyframes and animations during runtime",
+    url: "https://github.com/bjorkstam/animx",
+    source: "https://raw.github.com/bjorkstam/animx/master/animx.js"
   }
 ];
