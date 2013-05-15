@@ -8,6 +8,22 @@
 // See examples below.
 
 var MicroJS = [
+   {
+    name: "ImageFlip.js",
+    github: "erf/ImageFlip.js",
+    tags: ["slideshow", "images", "gallery", "collage"],
+    description: "Minimalistic slideshow library.",
+    url: "https://github.com/erf/ImageFlip.js",
+    source: "https://raw.github.com/erf/ImageFlip.js/master/imageflip.js"
+  },
+  {
+    name: "safemap.js",
+    github: "philbooth/safemap.js",
+    tags: ["map", "dictionary", "associative array", "data structure"],
+    description: "A tiny, safe, ES3-compliant map/dictionary implementation.",
+    url: "https://github.com/philbooth/safemap.js",
+    source: "https://raw.github.com/philbooth/safemap.js/master/src/safemap.js"
+  },
   {
     name: "OneDollar.js",
     github: "voidplus/onedollar-coffeescript",
@@ -15,6 +31,14 @@ var MicroJS = [
     description: "A JavaScript implementation of the &dollar;1 Gesture Recognizer, a two-dimensional template based gesture recognition",
     url: "https://github.com/voidplus/onedollar-coffeescript",
     source: "https://raw.github.com/voidplus/onedollar-coffeescript/master/lib/onedollar.js"
+  },
+  {
+    name: "LocalDB.js",
+    github: "Agnostic/LocalDB.js",
+    tags: ["nosql", "ODM", "mongo", "json", "database", "web applications", "localStorage"],
+    description: "LocalDB.js is a tool that maps the structure of the databases in objects using the localStorage API, no database drivers are required, just add the library and use it!",
+    url: "http://agnostic.github.io/LocalDB.js",
+    source: "https://raw.github.com/Agnostic/LocalDB.js/master/src/LocalDB.js"
   },
   {
     name: "Countable",
@@ -260,7 +284,7 @@ var MicroJS = [
     tags: ["framework", "mvc", "events", "command", "observer"],
     description: "Javascript mvc framework that help developers write loosely-coupled applications to increase scalability and maintainability.",
     url: "http://somajs.github.io/somajs/",
-    source: "http://somajs.github.io/somajs/examples/native/framework/src/soma.js"
+    source: "https://raw.github.com/somajs/somajs/master/build/soma.js"
   },
   {
     name: "Minion",
@@ -354,6 +378,13 @@ var MicroJS = [
     description: "Async flow control micro library for node and browser.",
     url: "https://github.com/jeromeetienne/gowiththeflow.js",
     source: "https://raw.github.com/jeromeetienne/gowiththeflow.js/master/gowiththeflow.js"
+  },
+  {
+    name: "creatorpattern.js",
+    tags: ["pattern", "creator", "node", "browser"],
+    description: "Micro library to easily add the creator pattern to your class.",
+    url: "https://github.com/jeromeetienne/creatorpattern.js",
+    source: "https://raw.github.com/jeromeetienne/creatorpattern.js/master/creatorpattern.js"
   },
   /* Too big, 5.5kb
   {
@@ -2465,5 +2496,48 @@ var MicroJS = [
     description: "Easily define CSS keyframes and animations during runtime",
     url: "https://github.com/bjorkstam/animx",
     source: "https://raw.github.com/bjorkstam/animx/master/animx.js"
+  },
+  {
+    name: "LogJS",
+    tags: ["logging", "CORS", "localStorage", "DOM"],
+    description: "Lightweight, extendable JavaScript logging library.",
+    url: "https://github.com/bfattori/LogJS",
+    source: "https://raw.github.com/bfattori/LogJS/master/log.js"
+  },
+  {
+    name: "StdClassJS",
+    github: "BlueJeansAndRain/stdclassjs",
+    tags: ["oop", "class", "extend", "mixin"],
+    description: "A dead simple JavaScript inheritance implementation.",
+    url: "https://github.com/BlueJeansAndRain/stdclassjs",
+    source: "https://raw.github.com/BlueJeansAndRain/stdclassjs/master/stdclass.js"
+  },
+  {
+    name: "keydrown",
+    tags: ["games"],
+    description: "A JavaScript key state handler for web apps",
+    url: "https://github.com/jeremyckahn/keydrown",
+    source: "https://raw.github.com/jeremyckahn/keydrown/master/dist/keydrown.min.js"
+  },
+  {
+    name: "vivi.js",
+    tags: ["animation", "animate", "css", "css3", "keyframe", "defined" ],
+    description: "Tiny wrapper for CSS Defined Animations (@keyframes).",
+    url: "https://github.com/musictheory/vivi.js",
+    source: "https://raw.github.com/musictheory/vivi.js/master/src/vivi.js"
+  },
+  {
+    name: "salt.js",
+    tags: ["dom", "selectors", "traversing", "library"],
+    description: "micro DOM selector library that maps queries to native get commands",
+    url: "https://github.com/james2doyle/saltjs",
+    source: "https://raw.github.com/james2doyle/saltjs/master/salt.js"
+  },
+  {
+    name: "defineObject",
+    tags: ["prototypes", "objects", "mixins"],
+    description: "A bit of sugar for defining JavaScript Objects and their Prototypes.",
+    url: "https://github.com/smelnikov/defineObject",
+    source: "https://raw.github.com/smelnikov/defineObject/master/defineObject.js"
   }
 ];
