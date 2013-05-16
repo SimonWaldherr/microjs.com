@@ -2736,5 +2736,21 @@
 		<summary>Tiny wrapper for CSS Defined Animations (@keyframes).</summary>
 	</entry>
 
+	<entry>
+		<title>konami.js</title>
+		<link href="https://github.com/SimonWaldherr/konami.js" />
+		<id>urn:uuid:48d6f960-be52-11e2-81cc-17bac8fdbc14</id>
+		<updated>2013-05-16'T'17:58:43Z</updated>
+		<summary>logs every keypress and store it for later</summary>
+	</entry>
+
+	<entry>
+		<title>infinity.js</title>
+		<link href="https://github.com/SimonWaldherr/infinity.js" />
+		<id>urn:uuid:4afe9450-be52-11e2-81cc-17bac8fdbc14</id>
+		<updated>2013-05-16'T'17:58:43Z</updated>
+		<summary>dependency-free infinite scrolling</summary>
+	</entry>
+
 
 </feed>
