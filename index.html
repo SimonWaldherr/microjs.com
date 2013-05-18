@@ -93,7 +93,29 @@
       -webkit-transform: scale(1);
     }
   }
-  li {
+
+  ul#results li:hover .tags {
+  display: block;
+  }
+  ul#results li {
+    height: 110px;
+    overflow: hidden;
+  }
+  ul#results li:hover {
+    overflow: visible;
+    z-index: 100;
+  }
+  ul#results li:hover .item {
+    z-index: 100;
+    display: block;
+    position: relative;
+  }
+  ul#results li:hover .item {
+    box-shadow: 0px 5px 10px 2px black;
+  }
+
+  
+  li .item {
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
@@ -109,7 +131,7 @@
     padding: 20px;
     -webkit-animation: appear 0.2s;
   }
-  li * {
+  li .item * {
     cursor: pointer;
     -webkit-font-smoothing: antialiased;
     text-rendering:optimizeLegibility;
@@ -121,17 +143,17 @@
     -o-user-select: none;
     user-select: none;
   }
-  li a {
+  li .item a {
     max-height: 60px;
     height: 60px;
     text-overflow: ellipsis;
     overflow: hidden;
     display: block;
   }
-  li span {
+  li .item span {
     font-weight: bold;
   }
-  li:nth-child(6n+1) {
+  li:nth-child(6n+1) .item {
     background: #791982;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -152,7 +174,7 @@
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#a839b2, #6c1075);
   }
-  li:nth-child(6n+2) {
+  li:nth-child(6n+2) .item {
     background: #C4004D;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -173,7 +195,7 @@
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#ff0071, #bb0047);
   }
-  li:nth-child(6n+3) {
+  li:nth-child(6n+3) .item {
     background: #81A02C;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -194,7 +216,7 @@
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#acd030, #6f9113);
   }
-  li:nth-child(6n+4) {
+  li:nth-child(6n+4) .item {
     background: #4A8419;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -215,7 +237,7 @@
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#58aa00, #337100);
   }
-  li:nth-child(6n+5) {
+  li:nth-child(6n+5) .item {
     background: #18946D;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -236,7 +258,7 @@
       linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)),
       linear-gradient(#00aa78, #05603e);
   }
-  li:nth-child(6n+6) {
+  li:nth-child(6n+6) .item {
     background: #1E577F;
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))),
@@ -258,7 +280,7 @@
       linear-gradient(#0074ae, #073c66);
   }
 
-  li:hover, li:focus {
+  li:hover .item, li:focus .item {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#3a3e40), to(#2a2e30));
@@ -281,7 +303,7 @@
     -moz-box-shadow:0 0 50px rgba(255,255,255,0.15);
     -webkit-box-shadow:0 0 100px rgba(255,255,255,0.15);
   }
-  li:nth-child(6n+1):hover, li:nth-child(6n+1):focus {
+  li:nth-child(6n+1):hover .item, li:nth-child(6n+1):focus .item {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#A839B2), to(#6c1075));
@@ -301,7 +323,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#A839B2, #6c1075);
   }
-  li:nth-child(6n+2):hover, li:nth-child(6n+2):focus {
+  li:nth-child(6n+2):hover .item, li:nth-child(6n+2):focus .item {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#ff0071), to(#bb0047));
@@ -321,7 +343,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#ff0071, #bb0047);
   }
-  li:nth-child(6n+3):hover, li:nth-child(6n+3):focus {
+  li:nth-child(6n+3):hover .item, li:nth-child(6n+3):focus .item {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#acd030), to(#6f9113));
@@ -341,7 +363,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#acd030, #6f9113);
   }
-  li:nth-child(6n+4):hover, li:nth-child(6n+4):focus {
+  li:nth-child(6n+4):hover .item, li:nth-child(6n+4):focus .item {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#58aa00), to(#337100));
@@ -361,7 +383,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#58aa00, #337100);
   }
-  li:nth-child(6n+5):hover, li:hover:nth-child(6n+5):focus {
+  li:nth-child(6n+5):hover .item, li:hover:nth-child(6n+5):focus .item {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#00aa78), to(#05603e));
@@ -381,7 +403,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#00aa78, #05603e);
   }
-  li:nth-child(6n+6):hover, li:nth-child(6n+6):focus {
+  li:nth-child(6n+6):hover .item, li:nth-child(6n+6):focus .item {
     background:
       -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.501, rgba(255,255,255,0.1)), to(rgba(255,255,255,0.1))),
       -webkit-gradient(linear, left top, left bottom, from(#0074ae), to(#073c66));
@@ -401,7 +423,7 @@
       linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 50.01%, rgba(255,255,255,0.1)),
       linear-gradient(#0074ae, #073c66);
   }
-  li .title {
+  li .item .title {
     float: left;
     margin: 0 30px 0 0;
     border-right: 1px solid rgba(255,255,255,1.0);
@@ -409,14 +431,14 @@
     height: 60px;
     overflow: hidden;
   }
-  li h3, li h4 {
+  li .item h3, li .item h4 {
     display: inline;
     line-height: 56px;
   }
-  li h3 {
+  li .item h3 {
     font-size: 40px;
   }
-  li h4 {
+  li .item h4 {
     font-size: 32px;
   }
   .title .stat {
@@ -456,7 +478,7 @@
   #ineed .icon.tag, .tags .icon.tag, .tags span {
     background-position: 4px -125px;
   }
-  li div.size {
+  li div div.size {
     float: right;
     margin: 0 0 0 30px;
     padding: 0 0 0 20px;
@@ -595,7 +617,6 @@
     <span>I need ...</span>
     <input type="text" id="ineed_text">
     <div id="config">
-      <span class="icon tag" title="show/hide tags" onclick="toggleTagVisibility()"> </span>
       <span class="icon color" title="change colors" onclick="toggleColorMode()"> </span>
     </div>
     <div id="ineed_select" style="display: none;"></div>
@@ -692,7 +713,7 @@
               + (r.tweets ? t('<span class="t icon">{tweets}</span>', r) : '')
               + '</div>'
             r.heading = r.name.length < 16 ? 3 : 4;
-            r._rendered = t('<li><a href="{url}"><div class="size">{size}</div><div class="title"><h{heading}>{name}</h{heading}>{stat}</div>{description}</a><div class="tags">'+tags+'</div></li>', r)
+            r._rendered = t('<li><div class="item"><a href="{url}"><div class="size">{size}</div><div class="title"><h{heading}>{name}</h{heading}>{stat}</div>{description}</a><div class="tags">'+tags+'</div></div></li>', r)
           }
           html.push(results[i]._rendered)
         }
@@ -935,7 +956,7 @@ var toggleColorMode = function () {
   elements = document.getElementById('results').children;
   if(elements[0].style.background === '') {
     for(i = 0; i < elements.length; i++) {
-      size = elements[i].getElementsByClassName('size')[0].innerHTML;
+      size = elements[i].firstChild.getElementsByClassName('size')[0].innerHTML;
       sint = (85+parseFloat(size)*60) > 360 ? 360 : 85+parseFloat(size)*60;
       background = 'background: #'+convHSLtoHEX([sint,80,58])+';'
       + 'background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), color-stop(0.5, rgba(255,255,255,0.1)), color-stop(0.501, rgba(255,255,255,0.0)), to(rgba(255,255,255,0.0))), -webkit-gradient(linear, left top, left bottom, from(#'+convHSLtoHEX([sint,80,58])+'), to(#'+convHSLtoHEX([sint,60,40])+'));'
@@ -944,12 +965,12 @@ var toggleColorMode = function () {
       + 'background: -ms-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)), -ms-linear-gradient(#'+convHSLtoHEX([sint,80,58])+', #'+convHSLtoHEX([sint,60,40])+');'
       + 'background: -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)), -o-linear-gradient(#'+convHSLtoHEX([sint,80,58])+', #'+convHSLtoHEX([sint,60,40])+');'
       + 'background: linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 50.01%, rgba(255,255,255,0)), linear-gradient(#'+convHSLtoHEX([sint,80,58])+', #'+convHSLtoHEX([sint,60,40])+');';
-      elements[i].setAttribute("style", background);
+      elements[i].firstChild.setAttribute("style", background);
     }
     document.getElementById('tagVisibility').setAttribute('data-color',true);
   } else {
     for(i = 0; i < elements.length; i++) {
-      elements[i].style.background = '';
+      elements[i].firstChild.style.background = '';
       document.getElementById('tagVisibility').setAttribute('data-color',false);
     }
   }
