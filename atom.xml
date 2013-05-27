@@ -2752,5 +2752,13 @@
 		<summary>dependency-free infinite scrolling</summary>
 	</entry>
 
+	<entry>
+		<title>majaX.js</title>
+		<link href="https://github.com/SimonWaldherr/majaX.js" />
+		<id>urn:uuid:40fad740-c6d9-11e2-bba8-77a3191814b4</id>
+		<updated>2013-05-27'T'14:25:03Z</updated>
+		<summary>make AJAX Requests and return (parsed) values.</summary>
+	</entry>
+
 
 </feed>
