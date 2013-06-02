@@ -20,7 +20,7 @@
     }
     
     function init() {
-      document.getElementById('foo').innerHTML = 'var MicroJS='+JSON.stringify(MicroJS.sort(function(a,b) { return valueOfString(a.name) - valueOfString(b.name) } ), null, '  ').replace(/},{/g, '},\n<br/>\n{').replace(/\",\"/g, '",\n<br/>\n"')+';\n';
+      document.getElementById('foo').innerHTML = 'var MicroJS='+JSON.stringify(MicroJS.sort(function(a,b) { return valueOfString(a.name) - valueOfString(b.name) } ), null, '  ').replace(/},{/g, '},\n<br/>\n{').replace(/\",\"/g, '",\n<br/>\n"')+';\n\n<br/>';
     }
     
   </script>
