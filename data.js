@@ -2438,6 +2438,14 @@ var MicroJS = [
     source: "https://raw.github.com/rowanmanning/upcast/master/lib/upcast.js"
   },
   {
+    name: "cryptofoo",
+    github: "SimonWaldherr/cryptofoo",
+    tags: ["hash", "hashing", "md5", "whirlpool"],
+    description: "A good compromise between speed and validity to hash strings",
+    url: "https://github.com/SimonWaldherr/cryptofoo",
+    source: "https://raw.github.com/SimonWaldherr/cryptofoo/master/cryptofoo.js"
+  },
+  {
     name: "ColorConverter.js",
     github: "SimonWaldherr/ColorConverter.js",
     tags: ["color", "color manipulation"],
