@@ -2760,5 +2760,13 @@
 		<summary>make AJAX Requests and return (parsed) values.</summary>
 	</entry>
 
+	<entry>
+		<title>cryptofoo</title>
+		<link href="https://github.com/SimonWaldherr/cryptofoo" />
+		<id>urn:uuid:8ce461a0-cc9f-11e2-8c4b-bd9cfa335782</id>
+		<updated>2013-06-03'T'22:47:03Z</updated>
+		<summary>A good compromise between speed and validity to hash strings</summary>
+	</entry>
+
 
 </feed>

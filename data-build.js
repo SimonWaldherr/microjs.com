@@ -7,10 +7,10 @@ var MicroJS=[
     ],
     "description": "when/defer-style promises for JavaScript (CommonJS/Promises/A,B,D)",
     "url": "https://github.com/kriskowal/q",
-    "ghwatchers": "2,192",
+    "ghwatchers": "2,196",
     "ghforks": "181",
     "size": "3.7 kB",
-    "tweets": "215",
+    "tweets": "216",
     "xmlEncodedName": "Q"
   },
   {
@@ -186,10 +186,10 @@ var MicroJS=[
     ],
     "description": "Creates a JSON property in the global object, if there  isn't already one, with stringify and parse methods.",
     "url": "https://github.com/douglascrockford/JSON-js",
-    "ghwatchers": "3,304",
-    "ghforks": "1,543",
+    "ghwatchers": "3,311",
+    "ghforks": "1,548",
     "size": "1.3 kB",
-    "tweets": "96",
+    "tweets": "91",
     "xmlEncodedName": "JSON2"
   },
   {
@@ -214,7 +214,7 @@ var MicroJS=[
     ],
     "description": "Bean is a slick, cross-platform, framework-agnostic event utility designed for desktop, mobile, and touch-based browsers. ",
     "url": "https://github.com/fat/bean",
-    "ghwatchers": "604",
+    "ghwatchers": "605",
     "ghforks": "67",
     "size": "3.9 kB",
     "tweets": "51",
@@ -259,7 +259,7 @@ var MicroJS=[
     ],
     "description": "A tiny javascript templating framework in ~400 bytes gzipped.",
     "url": "https://github.com/jasonmoo/t.js",
-    "ghwatchers": "565",
+    "ghwatchers": "566",
     "ghforks": "36",
     "size": "0.4 kB",
     "tweets": "122",
@@ -304,6 +304,19 @@ var MicroJS=[
     "xmlEncodedName": "Ekho"
   },
   {
+    "name": "Weld",
+    "tags": [
+      "templating"
+    ],
+    "description": "Completely unobtrusive, full featured template antimatter. Works in Node.js or the Browser, awesome built-in debugger.",
+    "url": "http://github.com/hij1nx/weld",
+    "ghwatchers": "553",
+    "ghforks": "19",
+    "size": "2.1 kB",
+    "tweets": "0",
+    "xmlEncodedName": "Weld"
+  },
+  {
     "name": "Mold",
     "tags": [
       "templating"
@@ -317,17 +330,19 @@ var MicroJS=[
     "xmlEncodedName": "Mold"
   },
   {
-    "name": "Weld",
+    "name": "JSON 3",
     "tags": [
-      "templating"
+      "polyfill",
+      "json",
+      "amd"
     ],
-    "description": "Completely unobtrusive, full featured template antimatter. Works in Node.js or the Browser, awesome built-in debugger.",
-    "url": "http://github.com/hij1nx/weld",
-    "ghwatchers": "552",
-    "ghforks": "18",
-    "size": "2.1 kB",
+    "description": "A modern JSON implementation compatible with nearly all JavaScript platforms.",
+    "url": "http://bestiejs.github.io/json3",
+    "ghwatchers": "358",
+    "ghforks": "33",
+    "size": "2.9 kB",
     "tweets": "0",
-    "xmlEncodedName": "Weld"
+    "xmlEncodedName": "JSON 3"
   },
   {
     "name": "Milk",
@@ -341,21 +356,6 @@ var MicroJS=[
     "size": "2 kB",
     "tweets": "5",
     "xmlEncodedName": "Milk"
-  },
-  {
-    "name": "JSON 3",
-    "tags": [
-      "polyfill",
-      "json",
-      "amd"
-    ],
-    "description": "A modern JSON implementation compatible with nearly all JavaScript platforms.",
-    "url": "http://bestiejs.github.io/json3",
-    "ghwatchers": "357",
-    "ghforks": "33",
-    "size": "2.9 kB",
-    "tweets": "0",
-    "xmlEncodedName": "JSON 3"
   },
   {
     "name": "Objs",
@@ -432,7 +432,7 @@ var MicroJS=[
     ],
     "description": "The *performance* script loader: on-demand parallel script loading with ordered execution for dependencies.",
     "url": "http://labjs.com/",
-    "ghwatchers": "926",
+    "ghwatchers": "925",
     "ghforks": "93",
     "size": "2.1 kB",
     "tweets": "293",
@@ -471,7 +471,7 @@ var MicroJS=[
     ],
     "description": "A human-friendly alternative to the HSL color space.",
     "url": "http://boronine.github.io/husl",
-    "ghwatchers": "58",
+    "ghwatchers": "59",
     "ghforks": "6",
     "size": "2.1 kB",
     "tweets": "0",
@@ -529,7 +529,7 @@ var MicroJS=[
     ],
     "description": "Adds support for HTML5 Forms chapters new field input types, attributes and constraint validation API in non-supporting browsers.",
     "url": "https://github.com/ryanseddon/H5F",
-    "ghwatchers": "446",
+    "ghwatchers": "447",
     "ghforks": "52",
     "size": "2 kB",
     "tweets": "43",
@@ -567,22 +567,6 @@ var MicroJS=[
     "xmlEncodedName": "DCL.js"
   },
   {
-    "name": "ki.js",
-    "tags": [
-      "dom",
-      "selectors",
-      "traversing",
-      "library"
-    ],
-    "description": "A super-tiny jQuery-like JavaScript library",
-    "url": "https://github.com/dciccale/ki.js",
-    "ghwatchers": "26",
-    "ghforks": "5",
-    "size": "0.3 kB",
-    "tweets": "15",
-    "xmlEncodedName": "ki.js"
-  },
-  {
     "name": "Chibi",
     "tags": [
       "chibi",
@@ -595,6 +579,22 @@ var MicroJS=[
     "size": "2.5 kB",
     "tweets": "174",
     "xmlEncodedName": "Chibi"
+  },
+  {
+    "name": "ki.js",
+    "tags": [
+      "dom",
+      "selectors",
+      "traversing",
+      "library"
+    ],
+    "description": "A super-tiny jQuery-like JavaScript library",
+    "url": "https://github.com/dciccale/ki.js",
+    "ghwatchers": "26",
+    "ghforks": "6",
+    "size": "0.3 kB",
+    "tweets": "15",
+    "xmlEncodedName": "ki.js"
   },
   {
     "name": "ua.js",
@@ -659,20 +659,6 @@ var MicroJS=[
     "xmlEncodedName": "Ender"
   },
   {
-    "name": "Mibbu",
-    "tags": [
-      "games",
-      "canvas"
-    ],
-    "description": "Microframework for fast game prototyping using Canvas & DOM",
-    "url": "https://github.com/michalbe/mibbu",
-    "ghwatchers": "172",
-    "ghforks": "12",
-    "size": "2.4 kB",
-    "tweets": "27",
-    "xmlEncodedName": "Mibbu"
-  },
-  {
     "name": "Maddy",
     "tags": [
       "functional",
@@ -700,6 +686,20 @@ var MicroJS=[
     "size": "0.1 kB",
     "tweets": "0",
     "xmlEncodedName": "HEX/RGB"
+  },
+  {
+    "name": "Mibbu",
+    "tags": [
+      "games",
+      "canvas"
+    ],
+    "description": "Microframework for fast game prototyping using Canvas & DOM",
+    "url": "https://github.com/michalbe/mibbu",
+    "ghwatchers": "172",
+    "ghforks": "12",
+    "size": "2.4 kB",
+    "tweets": "27",
+    "xmlEncodedName": "Mibbu"
   },
   {
     "name": "Timed",
@@ -730,21 +730,6 @@ var MicroJS=[
     "xmlEncodedName": "Dijon"
   },
   {
-    "name": "Slang",
-    "tags": [
-      "string",
-      "functional",
-      "language"
-    ],
-    "description": "A collection of utility functions for strings",
-    "url": "https://github.com/devongovett/slang",
-    "ghwatchers": "128",
-    "ghforks": "11",
-    "size": "2.1 kB",
-    "tweets": "24",
-    "xmlEncodedName": "Slang"
-  },
-  {
     "name": "Janis",
     "tags": [
       "animation",
@@ -758,6 +743,21 @@ var MicroJS=[
     "size": "1.4 kB",
     "tweets": "0",
     "xmlEncodedName": "Janis"
+  },
+  {
+    "name": "Slang",
+    "tags": [
+      "string",
+      "functional",
+      "language"
+    ],
+    "description": "A collection of utility functions for strings",
+    "url": "https://github.com/devongovett/slang",
+    "ghwatchers": "129",
+    "ghforks": "11",
+    "size": "2.1 kB",
+    "tweets": "24",
+    "xmlEncodedName": "Slang"
   },
   {
     "name": "Sslac",
@@ -787,21 +787,6 @@ var MicroJS=[
     "xmlEncodedName": "Fayer"
   },
   {
-    "name": "Gator",
-    "tags": [
-      "dom",
-      "events",
-      "delegation"
-    ],
-    "description": "Simple event delegation library",
-    "url": "http://craig.is/riding/gators",
-    "ghwatchers": "211",
-    "ghforks": "9",
-    "size": "0.9 kB",
-    "tweets": "120",
-    "xmlEncodedName": "Gator"
-  },
-  {
     "name": "Relay",
     "tags": [
       "dom",
@@ -820,6 +805,21 @@ var MicroJS=[
     "size": "1 kB",
     "tweets": "0",
     "xmlEncodedName": "Relay"
+  },
+  {
+    "name": "Gator",
+    "tags": [
+      "dom",
+      "events",
+      "delegation"
+    ],
+    "description": "Simple event delegation library",
+    "url": "http://craig.is/riding/gators",
+    "ghwatchers": "211",
+    "ghforks": "9",
+    "size": "0.9 kB",
+    "tweets": "120",
+    "xmlEncodedName": "Gator"
   },
   {
     "name": "Klass",
@@ -940,7 +940,7 @@ var MicroJS=[
     "description": "Small, fast, elegant, powerful, and cross platform OOP library. Support singleton, super call, private, mixins, plugins, AOP and more.",
     "url": "https://github.com/tnhu/jsface",
     "ghwatchers": "91",
-    "ghforks": "12",
+    "ghforks": "13",
     "size": "0.8 kB",
     "tweets": "3",
     "xmlEncodedName": "JSFace"
@@ -971,10 +971,10 @@ var MicroJS=[
     ],
     "description": "jQuery API-compatible framework for modern web browsers. Optional Ajax, Events, Data and Touch modules.",
     "url": "http://zeptojs.com",
-    "ghwatchers": "5,120",
-    "ghforks": "743",
+    "ghwatchers": "5,127",
+    "ghforks": "745",
     "size": "4.6 kB",
-    "tweets": "2,105",
+    "tweets": "2,109",
     "xmlEncodedName": "Zepto"
   },
   {
@@ -1039,10 +1039,10 @@ var MicroJS=[
     ],
     "description": "A lightweight 1-to-1 mobile slider. Optimized for touch devices.",
     "url": "https://github.com/bradbirdsall/Swipe",
-    "ghwatchers": "2,459",
+    "ghwatchers": "2,465",
     "ghforks": "656",
     "size": "1.9 kB",
-    "tweets": "103",
+    "tweets": "105",
     "xmlEncodedName": "swipe"
   },
   {
@@ -1057,6 +1057,22 @@ var MicroJS=[
     "size": "0.5 kB",
     "tweets": "1",
     "xmlEncodedName": "toast"
+  },
+  {
+    "name": "Head JS",
+    "tags": [
+      "loader",
+      "polyfill",
+      "feature",
+      "responsive"
+    ],
+    "description": "A responsive design library, with HTML5 and CSS3 polyfills, and asynchronous/conditional asset loading",
+    "url": "http://headjs.com/",
+    "ghwatchers": "2,914",
+    "ghforks": "247",
+    "size": "3.4 kB",
+    "tweets": "2,851",
+    "xmlEncodedName": "Head JS"
   },
   {
     "name": "parsy",
@@ -1074,22 +1090,6 @@ var MicroJS=[
     "xmlEncodedName": "parsy"
   },
   {
-    "name": "Head JS",
-    "tags": [
-      "loader",
-      "polyfill",
-      "feature",
-      "responsive"
-    ],
-    "description": "A responsive design library, with HTML5 and CSS3 polyfills, and asynchronous/conditional asset loading",
-    "url": "http://headjs.com/",
-    "ghwatchers": "2,911",
-    "ghforks": "247",
-    "size": "3.4 kB",
-    "tweets": "2,851",
-    "xmlEncodedName": "Head JS"
-  },
-  {
     "name": "doT.js",
     "tags": [
       "nodejs",
@@ -1100,10 +1100,10 @@ var MicroJS=[
     ],
     "description": "The fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.",
     "url": "https://github.com/olado/doT",
-    "ghwatchers": "950",
+    "ghwatchers": "953",
     "ghforks": "165",
     "size": "1.4 kB",
-    "tweets": "38",
+    "tweets": "40",
     "xmlEncodedName": "doT.js"
   },
   {
@@ -1224,6 +1224,19 @@ var MicroJS=[
     "xmlEncodedName": "css.js"
   },
   {
+    "name": "mix.js",
+    "tags": [
+      "mixin"
+    ],
+    "description": "Mixins with dependency resolution and private properties (without closures).",
+    "url": "https://github.com/bripkens/mix.js",
+    "ghwatchers": "7",
+    "ghforks": "0",
+    "size": "0.5 kB",
+    "tweets": "0",
+    "xmlEncodedName": "mix.js"
+  },
+  {
     "name": "zoe.js",
     "tags": [
       "class",
@@ -1241,19 +1254,6 @@ var MicroJS=[
     "size": "2.5 kB",
     "tweets": "27",
     "xmlEncodedName": "zoe.js"
-  },
-  {
-    "name": "mix.js",
-    "tags": [
-      "mixin"
-    ],
-    "description": "Mixins with dependency resolution and private properties (without closures).",
-    "url": "https://github.com/bripkens/mix.js",
-    "ghwatchers": "7",
-    "ghforks": "0",
-    "size": "0.5 kB",
-    "tweets": "0",
-    "xmlEncodedName": "mix.js"
   },
   {
     "name": "Jaguar",
@@ -1275,7 +1275,7 @@ var MicroJS=[
     ],
     "description": "Browser history manager for rich-media applications.",
     "url": "https://github.com/millermedeiros/Hasher",
-    "ghwatchers": "218",
+    "ghwatchers": "219",
     "ghforks": "31",
     "size": "1.2 kB",
     "tweets": "10",
@@ -1328,7 +1328,7 @@ var MicroJS=[
     ],
     "description": "Plates (short for templates) binds data to markup. Plates has NO special syntax. It works in the browser and in Node.js.",
     "url": "https://github.com/flatiron/plates",
-    "ghwatchers": "557",
+    "ghwatchers": "560",
     "ghforks": "60",
     "size": "2.3 kB",
     "tweets": "73",
@@ -1363,51 +1363,8 @@ var MicroJS=[
     "ghwatchers": "215",
     "ghforks": "30",
     "size": "0.7 kB",
-    "tweets": "46",
+    "tweets": "44",
     "xmlEncodedName": "Classy"
-  },
-  {
-    "name": "Panzer",
-    "tags": [
-      "data"
-    ],
-    "description": "A comprehensive node-tree solution, for smart data",
-    "url": "https://github.com/bemson/Panzer",
-    "ghwatchers": "11",
-    "ghforks": "2",
-    "size": "2.1 kB",
-    "tweets": "0",
-    "xmlEncodedName": "Panzer"
-  },
-  {
-    "name": "Upcast",
-    "tags": [
-      "cast",
-      "check",
-      "type",
-      "types"
-    ],
-    "description": "Upcast is a low-level JavaScript type checking and casting library.",
-    "url": "https://github.com/rowanmanning/upcast",
-    "ghwatchers": "25",
-    "ghforks": "1",
-    "size": "0.6 kB",
-    "tweets": "7",
-    "xmlEncodedName": "Upcast"
-  },
-  {
-    "name": "Émile",
-    "tags": [
-      "animation",
-      "jsanimation"
-    ],
-    "description": "Émile is a no-frills stand-alone CSS animation JavaScript framework",
-    "url": "https://github.com/madrobby/emile",
-    "ghwatchers": "505",
-    "ghforks": "53",
-    "size": "0.9 kB",
-    "tweets": "19",
-    "xmlEncodedName": "Émile"
   },
   {
     "name": "Hypher",
@@ -1437,6 +1394,49 @@ var MicroJS=[
     "xmlEncodedName": "DOMBrew"
   },
   {
+    "name": "Upcast",
+    "tags": [
+      "cast",
+      "check",
+      "type",
+      "types"
+    ],
+    "description": "Upcast is a low-level JavaScript type checking and casting library.",
+    "url": "https://github.com/rowanmanning/upcast",
+    "ghwatchers": "25",
+    "ghforks": "1",
+    "size": "0.6 kB",
+    "tweets": "7",
+    "xmlEncodedName": "Upcast"
+  },
+  {
+    "name": "Panzer",
+    "tags": [
+      "data"
+    ],
+    "description": "A comprehensive node-tree solution, for smart data",
+    "url": "https://github.com/bemson/Panzer",
+    "ghwatchers": "11",
+    "ghforks": "2",
+    "size": "2.1 kB",
+    "tweets": "0",
+    "xmlEncodedName": "Panzer"
+  },
+  {
+    "name": "Émile",
+    "tags": [
+      "animation",
+      "jsanimation"
+    ],
+    "description": "Émile is a no-frills stand-alone CSS animation JavaScript framework",
+    "url": "https://github.com/madrobby/emile",
+    "ghwatchers": "506",
+    "ghforks": "53",
+    "size": "0.9 kB",
+    "tweets": "19",
+    "xmlEncodedName": "Émile"
+  },
+  {
     "name": "Bowser",
     "tags": [
       "feature"
@@ -1458,10 +1458,10 @@ var MicroJS=[
     ],
     "description": "A markdown parser and compiler. Built for speed.",
     "url": "https://github.com/chjj/marked",
-    "ghwatchers": "1,647",
-    "ghforks": "190",
+    "ghwatchers": "1,656",
+    "ghforks": "191",
     "size": "4.3 kB",
-    "tweets": "86",
+    "tweets": "87",
     "xmlEncodedName": "marked"
   },
   {
@@ -1499,7 +1499,7 @@ var MicroJS=[
     ],
     "description": "Simple & powerful client-side templating for jQuery or Zepto.js.",
     "url": "http://icanhazjs.com/",
-    "ghwatchers": "658",
+    "ghwatchers": "660",
     "ghforks": "103",
     "size": "2.3 kB",
     "tweets": "336",
@@ -1523,19 +1523,6 @@ var MicroJS=[
     "xmlEncodedName": "DOMaker"
   },
   {
-    "name": "ClassIE",
-    "tags": [
-      "feature"
-    ],
-    "description": "ClassIE is an unobstrusive library which detects Internet Explorer version for JS and CSS sides",
-    "url": "https://github.com/pyrsmk/ClassIE",
-    "ghwatchers": "13",
-    "ghforks": "3",
-    "size": "0.2 kB",
-    "tweets": "1",
-    "xmlEncodedName": "ClassIE"
-  },
-  {
     "name": "TinyDOM",
     "tags": [
       "dom"
@@ -1547,6 +1534,19 @@ var MicroJS=[
     "size": "0.4 kB",
     "tweets": "2",
     "xmlEncodedName": "TinyDOM"
+  },
+  {
+    "name": "ClassIE",
+    "tags": [
+      "feature"
+    ],
+    "description": "ClassIE is an unobstrusive library which detects Internet Explorer version for JS and CSS sides",
+    "url": "https://github.com/pyrsmk/ClassIE",
+    "ghwatchers": "13",
+    "ghforks": "3",
+    "size": "0.2 kB",
+    "tweets": "1",
+    "xmlEncodedName": "ClassIE"
   },
   {
     "name": "Jwerty",
@@ -1586,8 +1586,8 @@ var MicroJS=[
     ],
     "description": "Compatibility shims so that legacy JavaScript engines behave as closely as possible to ES5.",
     "url": "https://github.com/kriskowal/es5-shim/",
-    "ghwatchers": "1,587",
-    "ghforks": "181",
+    "ghwatchers": "1,592",
+    "ghforks": "182",
     "size": "3.6 kB",
     "tweets": "159",
     "xmlEncodedName": "ES5-Shim"
@@ -1670,8 +1670,8 @@ var MicroJS=[
     ],
     "description": "A Library for creating beautiful mobile shelfs in Javascript",
     "url": "https://github.com/jakiestfu/Snap.js",
-    "ghwatchers": "2,150",
-    "ghforks": "164",
+    "ghwatchers": "2,163",
+    "ghforks": "166",
     "size": "2.5 kB",
     "tweets": "170",
     "xmlEncodedName": "Snap.js"
@@ -1714,8 +1714,8 @@ var MicroJS=[
     ],
     "description": "Add search, sort and flexibility to plain HTML lists (div, ul, table, everything!).",
     "url": "http://listjs.com",
-    "ghwatchers": "2,085",
-    "ghforks": "198",
+    "ghwatchers": "2,088",
+    "ghforks": "199",
     "size": "3 kB",
     "tweets": "1,042",
     "xmlEncodedName": "List.js"
@@ -1769,7 +1769,7 @@ var MicroJS=[
     ],
     "description": "Simple, lightweight routing for web browsers",
     "url": "http://mtrpcic.github.io/pathjs/",
-    "ghwatchers": "533",
+    "ghwatchers": "536",
     "ghforks": "91",
     "size": "1.1 kB",
     "tweets": "1",
@@ -1786,7 +1786,7 @@ var MicroJS=[
     ],
     "description": "Date-agnostic time parsing for node and the browser.",
     "url": "http://github.com/zever/time/",
-    "ghwatchers": "12",
+    "ghwatchers": "13",
     "ghforks": "0",
     "size": "0.9 kB",
     "tweets": "0",
@@ -1859,19 +1859,6 @@ var MicroJS=[
     "xmlEncodedName": "iugo.js"
   },
   {
-    "name": "Fermata",
-    "tags": [
-      "ajax"
-    ],
-    "description": "Succinct native REST client, for client-side web apps and node.js. Turns URLs into magic JavaScript objects.",
-    "url": "https://github.com/natevw/fermata",
-    "ghwatchers": "187",
-    "ghforks": "15",
-    "size": "2.7 kB",
-    "tweets": "4",
-    "xmlEncodedName": "Fermata"
-  },
-  {
     "name": "Lemonad",
     "tags": [
       "functional",
@@ -1886,6 +1873,19 @@ var MicroJS=[
     "size": "1.5 kB",
     "tweets": "0",
     "xmlEncodedName": "Lemonad"
+  },
+  {
+    "name": "Fermata",
+    "tags": [
+      "ajax"
+    ],
+    "description": "Succinct native REST client, for client-side web apps and node.js. Turns URLs into magic JavaScript objects.",
+    "url": "https://github.com/natevw/fermata",
+    "ghwatchers": "187",
+    "ghforks": "15",
+    "size": "2.7 kB",
+    "tweets": "4",
+    "xmlEncodedName": "Fermata"
   },
   {
     "name": "Artemia",
@@ -1974,8 +1974,8 @@ var MicroJS=[
     ],
     "description": "Simple, extendable code syntax highlighting library.",
     "url": "http://craig.is/making/rainbows",
-    "ghwatchers": "1,773",
-    "ghforks": "145",
+    "ghwatchers": "1,775",
+    "ghforks": "144",
     "size": "1.5 kB",
     "tweets": "620",
     "xmlEncodedName": "Rainbow"
@@ -2088,11 +2088,24 @@ var MicroJS=[
     ],
     "description": "Compatibility shims so that legacy JavaScript engines behave as closely as possible to ES6 (Harmony).",
     "url": "https://github.com/paulmillr/es6-shim/",
-    "ghwatchers": "295",
+    "ghwatchers": "296",
     "ghforks": "27",
     "size": "3.1 kB",
     "tweets": "34",
     "xmlEncodedName": "es6-shim"
+  },
+  {
+    "name": "Base64.js",
+    "tags": [
+      "polyfill"
+    ],
+    "description": "`window.btoa` and `window.atob` for browsers which don't provide these functions.",
+    "url": "https://github.com/davidchambers/Base64.js",
+    "ghwatchers": "26",
+    "ghforks": "7",
+    "size": "0.4 kB",
+    "tweets": "1",
+    "xmlEncodedName": "Base64.js"
   },
   {
     "name": "ES5-Class",
@@ -2107,19 +2120,6 @@ var MicroJS=[
     "size": "0.5 kB",
     "tweets": "0",
     "xmlEncodedName": "ES5-Class"
-  },
-  {
-    "name": "Base64.js",
-    "tags": [
-      "polyfill"
-    ],
-    "description": "`window.btoa` and `window.atob` for browsers which don't provide these functions.",
-    "url": "https://github.com/davidchambers/Base64.js",
-    "ghwatchers": "26",
-    "ghforks": "7",
-    "size": "0.4 kB",
-    "tweets": "1",
-    "xmlEncodedName": "Base64.js"
   },
   {
     "name": "DOMinate",
@@ -2165,24 +2165,9 @@ var MicroJS=[
     "url": "https://github.com/SimonWaldherr/majaX.js",
     "ghwatchers": "2",
     "ghforks": "0",
-    "size": "3.9 kB",
+    "size": "4 kB",
     "tweets": "0",
     "xmlEncodedName": "majaX.js"
-  },
-  {
-    "name": "jaylist",
-    "tags": [
-      "functional",
-      "extend",
-      "data"
-    ],
-    "description": "A simple wrapper for JavaScript's built-in hash storage.",
-    "url": "http://benbscholz.github.io/jaylist",
-    "ghwatchers": "24",
-    "ghforks": "4",
-    "size": "0.8 kB",
-    "tweets": "0",
-    "xmlEncodedName": "jaylist"
   },
   {
     "name": "yepnope",
@@ -2192,7 +2177,7 @@ var MicroJS=[
     ],
     "description": "yepnope is an asynchronous conditional resource loader that allows you to load only the scripts that your users need.",
     "url": "http://yepnopejs.com/",
-    "ghwatchers": "1,800",
+    "ghwatchers": "1,799",
     "ghforks": "213",
     "size": "1.8 kB",
     "tweets": "1,401",
@@ -2213,19 +2198,19 @@ var MicroJS=[
     "xmlEncodedName": "kebab.js"
   },
   {
-    "name": "Class.js",
+    "name": "jaylist",
     "tags": [
-      "language",
-      "class",
-      "inheritance"
+      "functional",
+      "extend",
+      "data"
     ],
-    "description": "Lighting fast class system. Beautiful API.",
-    "url": "https://github.com/DominikGuzei/Class.js",
-    "ghwatchers": "23",
-    "ghforks": "2",
-    "size": "0.6 kB",
+    "description": "A simple wrapper for JavaScript's built-in hash storage.",
+    "url": "http://benbscholz.github.io/jaylist",
+    "ghwatchers": "24",
+    "ghforks": "4",
+    "size": "0.8 kB",
     "tweets": "0",
-    "xmlEncodedName": "Class.js"
+    "xmlEncodedName": "jaylist"
   },
   {
     "name": "environ",
@@ -2239,6 +2224,21 @@ var MicroJS=[
     "size": "0.5 kB",
     "tweets": "4",
     "xmlEncodedName": "environ"
+  },
+  {
+    "name": "Class.js",
+    "tags": [
+      "language",
+      "class",
+      "inheritance"
+    ],
+    "description": "Lighting fast class system. Beautiful API.",
+    "url": "https://github.com/DominikGuzei/Class.js",
+    "ghwatchers": "23",
+    "ghforks": "2",
+    "size": "0.6 kB",
+    "tweets": "0",
+    "xmlEncodedName": "Class.js"
   },
   {
     "name": "Timer.js",
@@ -2279,7 +2279,7 @@ var MicroJS=[
     "ghwatchers": "25",
     "ghforks": "6",
     "size": "0.3 kB",
-    "tweets": "4",
+    "tweets": "3",
     "xmlEncodedName": "bacon.js"
   },
   {
@@ -2290,7 +2290,7 @@ var MicroJS=[
     ],
     "description": "Predicate-based JS execution engine, for in-page and external scripts. Loads itself asynchronously.",
     "url": "https://github.com/wessman/defer.js",
-    "ghwatchers": "20",
+    "ghwatchers": "21",
     "ghforks": "4",
     "size": "1.8 kB",
     "tweets": "3",
@@ -2337,10 +2337,10 @@ var MicroJS=[
     ],
     "description": "Lightweight MVC—models with custom events, collections with rich enumerables, views and RESTful JSON.",
     "url": "http://backbonejs.org/",
-    "ghwatchers": "14,355",
-    "ghforks": "2,797",
+    "ghwatchers": "14,378",
+    "ghforks": "2,805",
     "size": "6.2 kB",
-    "tweets": "2,464",
+    "tweets": "2,466",
     "xmlEncodedName": "Backbone"
   },
   {
@@ -2352,8 +2352,8 @@ var MicroJS=[
     ],
     "description": "A better way for new feature introduction and step-by-step users guide for your website and project.",
     "url": "https://github.com/usablica/intro.js",
-    "ghwatchers": "5,058",
-    "ghforks": "565",
+    "ghwatchers": "5,074",
+    "ghforks": "564",
     "size": "2.8 kB",
     "tweets": "70",
     "xmlEncodedName": "Intro.js"
@@ -2379,8 +2379,8 @@ var MicroJS=[
     ],
     "description": "localStorage wrapper for all browsers without using cookies or flash",
     "url": "https://github.com/marcuswestin/store.js",
-    "ghwatchers": "1,639",
-    "ghforks": "182",
+    "ghwatchers": "1,646",
+    "ghforks": "183",
     "size": "1 kB",
     "tweets": "83",
     "xmlEncodedName": "Store.js"
@@ -2397,9 +2397,9 @@ var MicroJS=[
     "description": "A tiny, cross-browser, library with DOM manipulation, events, pub/sub, Ajax and language utilities.",
     "url": "http://snackjs.com/",
     "ghwatchers": "180",
-    "ghforks": "17",
+    "ghforks": "16",
     "size": "3.1 kB",
-    "tweets": "47",
+    "tweets": "48",
     "xmlEncodedName": "snack.js"
   },
   {
@@ -2431,6 +2431,19 @@ var MicroJS=[
     "xmlEncodedName": "audio-fx"
   },
   {
+    "name": "LazyLoad",
+    "tags": [
+      "loader"
+    ],
+    "description": "Async JavaScript and CSS loader.",
+    "url": "https://github.com/rgrove/lazyload",
+    "ghwatchers": "499",
+    "ghforks": "72",
+    "size": "0.9 kB",
+    "tweets": "38",
+    "xmlEncodedName": "LazyLoad"
+  },
+  {
     "name": "ready.js",
     "tags": [
       "async",
@@ -2446,19 +2459,6 @@ var MicroJS=[
     "size": "0.9 kB",
     "tweets": "7",
     "xmlEncodedName": "ready.js"
-  },
-  {
-    "name": "LazyLoad",
-    "tags": [
-      "loader"
-    ],
-    "description": "Async JavaScript and CSS loader.",
-    "url": "https://github.com/rgrove/lazyload",
-    "ghwatchers": "498",
-    "ghforks": "72",
-    "size": "0.9 kB",
-    "tweets": "38",
-    "xmlEncodedName": "LazyLoad"
   },
   {
     "name": "js.class",
@@ -2577,22 +2577,6 @@ var MicroJS=[
     "xmlEncodedName": "isMobile"
   },
   {
-    "name": "domReady",
-    "tags": [
-      "dom",
-      "event",
-      "ready",
-      "load"
-    ],
-    "description": "Lets you know when the DOM is ready",
-    "url": "https://github.com/ded/domready",
-    "ghwatchers": "302",
-    "ghforks": "49",
-    "size": "0.4 kB",
-    "tweets": "10",
-    "xmlEncodedName": "domReady"
-  },
-  {
     "name": "sloth.js",
     "tags": [
       "lazy",
@@ -2609,6 +2593,22 @@ var MicroJS=[
     "size": "0.4 kB",
     "tweets": "0",
     "xmlEncodedName": "sloth.js"
+  },
+  {
+    "name": "domReady",
+    "tags": [
+      "dom",
+      "event",
+      "ready",
+      "load"
+    ],
+    "description": "Lets you know when the DOM is ready",
+    "url": "https://github.com/ded/domready",
+    "ghwatchers": "304",
+    "ghforks": "50",
+    "size": "0.4 kB",
+    "tweets": "10",
+    "xmlEncodedName": "domReady"
   },
   {
     "name": "Proclaim",
@@ -2661,8 +2661,8 @@ var MicroJS=[
     ],
     "description": "Minimal, logic-less templating with {{mustaches}}. Great for server- or client-side templating.",
     "url": "http://mustache.github.io/",
-    "ghwatchers": "5,004",
-    "ghforks": "897",
+    "ghwatchers": "5,010",
+    "ghforks": "898",
     "size": "2 kB",
     "tweets": "25",
     "xmlEncodedName": "Mustache"
@@ -2674,7 +2674,7 @@ var MicroJS=[
     ],
     "description": "A lightweight, full featured client side router for single page apps.",
     "url": "https://github.com/flatiron/director",
-    "ghwatchers": "825",
+    "ghwatchers": "824",
     "ghforks": "99",
     "size": "3.5 kB",
     "tweets": "66",
@@ -2757,8 +2757,8 @@ var MicroJS=[
     ],
     "description": "A lightweight, cross browser library for adding IDE style behaviors to plain text areas",
     "url": "https://github.com/jakiestfu/Behave.js",
-    "ghwatchers": "980",
-    "ghforks": "56",
+    "ghwatchers": "981",
+    "ghforks": "55",
     "size": "2.6 kB",
     "tweets": "14",
     "xmlEncodedName": "Behave.js"
@@ -2789,10 +2789,10 @@ var MicroJS=[
     ],
     "description": "A tiny javascript library that can be used to control gestures on touch devices.",
     "url": "http://eightmedia.github.io/hammer.js/",
-    "ghwatchers": "4,421",
-    "ghforks": "575",
+    "ghwatchers": "4,436",
+    "ghforks": "579",
     "size": "3.7 kB",
-    "tweets": "94",
+    "tweets": "98",
     "xmlEncodedName": "Hammer.js"
   },
   {
@@ -2931,7 +2931,7 @@ var MicroJS=[
     ],
     "description": "A (really) tiny Javascript MVC microframework. Perfect for mobile.",
     "url": "http://hay.github.io/stapes/",
-    "ghwatchers": "145",
+    "ghwatchers": "146",
     "ghforks": "22",
     "size": "2.1 kB",
     "tweets": "2",
@@ -2957,18 +2957,6 @@ var MicroJS=[
     "xmlEncodedName": "LocalDB.js"
   },
   {
-    "name": "Colors.js",
-    "tags": [
-      "color",
-      "color manipulation"
-    ],
-    "description": "Colors.js is an easy to use color-manipulation library that is lightweight and very functional.",
-    "url": "http://matthewbj.github.io/Colors/",
-    "size": "2.6 kB",
-    "tweets": "0",
-    "xmlEncodedName": "Colors.js"
-  },
-  {
     "name": "SpeculOOs",
     "tags": [
       "language",
@@ -2981,6 +2969,18 @@ var MicroJS=[
     "size": "0.3 kB",
     "tweets": "3",
     "xmlEncodedName": "SpeculOOs"
+  },
+  {
+    "name": "Colors.js",
+    "tags": [
+      "color",
+      "color manipulation"
+    ],
+    "description": "Colors.js is an easy to use color-manipulation library that is lightweight and very functional.",
+    "url": "http://matthewbj.github.io/Colors/",
+    "size": "2.6 kB",
+    "tweets": "0",
+    "xmlEncodedName": "Colors.js"
   },
   {
     "name": "Events.js",
@@ -3005,10 +3005,10 @@ var MicroJS=[
     ],
     "description": "A small library that makes setting, getting and removing cookies really easy.",
     "url": "https://github.com/js-coder/cookie.js",
-    "ghwatchers": "331",
+    "ghwatchers": "330",
     "ghforks": "43",
     "size": "0.9 kB",
-    "tweets": "44",
+    "tweets": "45",
     "xmlEncodedName": "cookie.js"
   },
   {
@@ -3068,7 +3068,7 @@ var MicroJS=[
     "description": "Browser/node color library. Implicit color space conversions, chainable channel methods and CSS convenience methods. RGB, HSV, HSL, CMYK with alpha channel",
     "url": "https://github.com/One-com/one-color",
     "ghwatchers": "183",
-    "ghforks": "11",
+    "ghforks": "12",
     "size": "2.1 kB",
     "tweets": "24",
     "xmlEncodedName": "one-color"
@@ -3161,10 +3161,10 @@ var MicroJS=[
     ],
     "description": "Client side JSON document store. Perfect for WebKit mobile apps.",
     "url": "http://brian.io/lawnchair/",
-    "ghwatchers": "1,515",
+    "ghwatchers": "1,517",
     "ghforks": "196",
     "size": "0.9 kB",
-    "tweets": "91",
+    "tweets": "92",
     "xmlEncodedName": "Lawnchair"
   },
   {
@@ -3227,10 +3227,10 @@ var MicroJS=[
     ],
     "description": "Countable is a JavaScript function to add live paragraph-, word- and character-counting to an HTML element.",
     "url": "http://radlikewhoa.github.io/Countable",
-    "ghwatchers": "722",
-    "ghforks": "66",
+    "ghwatchers": "749",
+    "ghforks": "69",
     "size": "1 kB",
-    "tweets": "173",
+    "tweets": "188",
     "xmlEncodedName": "Countable"
   },
   {
@@ -3294,10 +3294,10 @@ var MicroJS=[
     ],
     "description": "string.js is a lightweight (< 4 kb minified and gzipped) JavaScript library for the browser or for Node.js that provides extra String methods.",
     "url": "http://stringjs.com",
-    "ghwatchers": "396",
+    "ghwatchers": "398",
     "ghforks": "34",
     "size": "4.3 kB",
-    "tweets": "184",
+    "tweets": "180",
     "xmlEncodedName": "string.js"
   },
   {
@@ -3419,7 +3419,7 @@ var MicroJS=[
     ],
     "description": "Define scoped keyboard shortcuts, including modifier keys.",
     "url": "https://github.com/madrobby/keymaster",
-    "ghwatchers": "3,428",
+    "ghwatchers": "3,430",
     "ghforks": "193",
     "size": "1.5 kB",
     "tweets": "623",
@@ -3469,6 +3469,17 @@ var MicroJS=[
     "xmlEncodedName": "Date-Utils"
   },
   {
+    "name": "Bootstrap",
+    "tags": [
+      "loader"
+    ],
+    "description": "A small, simple bootloader. No frills. Black and white label.",
+    "url": "https://bitbucket.org/scott_koon/bootstrap",
+    "size": "0.7 kB",
+    "tweets": "1",
+    "xmlEncodedName": "Bootstrap"
+  },
+  {
     "name": "JSDeferred",
     "tags": [
       "defered",
@@ -3482,17 +3493,6 @@ var MicroJS=[
     "size": "2 kB",
     "tweets": "45",
     "xmlEncodedName": "JSDeferred"
-  },
-  {
-    "name": "Bootstrap",
-    "tags": [
-      "loader"
-    ],
-    "description": "A small, simple bootloader. No frills. Black and white label.",
-    "url": "https://bitbucket.org/scott_koon/bootstrap",
-    "size": "0.7 kB",
-    "tweets": "1",
-    "xmlEncodedName": "Bootstrap"
   },
   {
     "name": "StdClassJS",
@@ -3517,10 +3517,10 @@ var MicroJS=[
     ],
     "description": "A simple library for handling keyboard shortcuts in Javascript.",
     "url": "http://craig.is/killing/mice",
-    "ghwatchers": "3,399",
-    "ghforks": "262",
+    "ghwatchers": "3,404",
+    "ghforks": "263",
     "size": "1.9 kB",
-    "tweets": "1,258",
+    "tweets": "1,259",
     "xmlEncodedName": "Mousetrap"
   },
   {
@@ -3530,7 +3530,7 @@ var MicroJS=[
     ],
     "description": "An asynchronous JavaScript loader and dependency manager with an astonishingly impressive footprint.",
     "url": "https://github.com/ded/script.js",
-    "ghwatchers": "743",
+    "ghwatchers": "746",
     "ghforks": "78",
     "size": "0.8 kB",
     "tweets": "51",
@@ -3559,7 +3559,7 @@ var MicroJS=[
     ],
     "description": "Adds media queries support to incapable browsers",
     "url": "https://github.com/pyrsmk/mediatizr",
-    "ghwatchers": "28",
+    "ghwatchers": "29",
     "ghforks": "8",
     "size": "0.7 kB",
     "tweets": "2",
@@ -3572,11 +3572,40 @@ var MicroJS=[
     ],
     "description": "A tiny and AMD javascript loader with nested dependencies.",
     "url": "http://capmousse.github.io/include.js/",
-    "ghwatchers": "72",
+    "ghwatchers": "73",
     "ghforks": "8",
     "size": "0.8 kB",
     "tweets": "0",
     "xmlEncodedName": "Include.js"
+  },
+  {
+    "name": "Bespoke.js",
+    "tags": [
+      "presentation",
+      "slides",
+      "deck",
+      "css3"
+    ],
+    "description": "DIY presentation micro-framework, harnessing the power of CSS3 transitions.",
+    "url": "https://github.com/markdalgleish/bespoke.js",
+    "ghwatchers": "1,395",
+    "ghforks": "153",
+    "size": "0.9 kB",
+    "tweets": "37",
+    "xmlEncodedName": "Bespoke.js"
+  },
+  {
+    "name": "Traversty",
+    "tags": [
+      "dom"
+    ],
+    "description": "Headache-free DOM collection management and traversal with an API inspired by both jQuery and Prototype",
+    "url": "https://github.com/rvagg/traversty",
+    "ghwatchers": "99",
+    "ghforks": "9",
+    "size": "2 kB",
+    "tweets": "37",
+    "xmlEncodedName": "Traversty"
   },
   {
     "name": "server2.js",
@@ -3593,35 +3622,6 @@ var MicroJS=[
     "size": "4.2 kB",
     "tweets": "1",
     "xmlEncodedName": "server2.js"
-  },
-  {
-    "name": "Traversty",
-    "tags": [
-      "dom"
-    ],
-    "description": "Headache-free DOM collection management and traversal with an API inspired by both jQuery and Prototype",
-    "url": "https://github.com/rvagg/traversty",
-    "ghwatchers": "99",
-    "ghforks": "9",
-    "size": "2 kB",
-    "tweets": "37",
-    "xmlEncodedName": "Traversty"
-  },
-  {
-    "name": "Bespoke.js",
-    "tags": [
-      "presentation",
-      "slides",
-      "deck",
-      "css3"
-    ],
-    "description": "DIY presentation micro-framework, harnessing the power of CSS3 transitions.",
-    "url": "https://github.com/markdalgleish/bespoke.js",
-    "ghwatchers": "1,391",
-    "ghforks": "152",
-    "size": "0.9 kB",
-    "tweets": "37",
-    "xmlEncodedName": "Bespoke.js"
   },
   {
     "name": "ES6-Map-Shim",
@@ -3682,6 +3682,23 @@ var MicroJS=[
     "xmlEncodedName": "functools"
   },
   {
+    "name": "cryptofoo",
+    "tags": [
+      "hash",
+      "hashing",
+      "md5",
+      "whirlpool"
+    ],
+    "description": "A good compromise between speed and validity to hash strings",
+    "url": "https://github.com/SimonWaldherr/cryptofoo",
+    "ghwatchers": "0",
+    "ghforks": "0",
+    "size": "3.2 kB",
+    "tweets": "0",
+    "xmlEncodedName": "cryptofoo",
+    "xmlEncodedDescription": "A good compromise between speed and validity to hash strings"
+  },
+  {
     "name": "Respond.js",
     "tags": [
       "polyfill",
@@ -3692,10 +3709,10 @@ var MicroJS=[
     ],
     "description": "A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).",
     "url": "https://github.com/scottjehl/Respond",
-    "ghwatchers": "4,274",
-    "ghforks": "851",
+    "ghwatchers": "4,279",
+    "ghforks": "854",
     "size": "1.8 kB",
-    "tweets": "805",
+    "tweets": "806",
     "xmlEncodedName": "Respond.js"
   },
   {
@@ -3732,17 +3749,6 @@ var MicroJS=[
     "xmlEncodedName": "Stately.js"
   },
   {
-    "name": "BuildSugar",
-    "tags": [
-      "templating"
-    ],
-    "description": "Bizarrely clean & simple syntax sugar for building HTML/XML strings",
-    "url": "http://jsfiddle.net/SubtleGradient/4W3RR/",
-    "size": "0.2 kB",
-    "tweets": "2",
-    "xmlEncodedName": "BuildSugar"
-  },
-  {
     "name": "onDomReady",
     "tags": [
       "dom",
@@ -3757,6 +3763,17 @@ var MicroJS=[
     "size": "0.5 kB",
     "tweets": "8",
     "xmlEncodedName": "onDomReady"
+  },
+  {
+    "name": "BuildSugar",
+    "tags": [
+      "templating"
+    ],
+    "description": "Bizarrely clean & simple syntax sugar for building HTML/XML strings",
+    "url": "http://jsfiddle.net/SubtleGradient/4W3RR/",
+    "size": "0.2 kB",
+    "tweets": "2",
+    "xmlEncodedName": "BuildSugar"
   },
   {
     "name": "JSON.minify",
@@ -3799,7 +3816,7 @@ var MicroJS=[
     ],
     "description": "Awesome Media Queries in JavaScript",
     "url": "https://github.com/WickyNilliams/enquire.js",
-    "ghwatchers": "1,052",
+    "ghwatchers": "1,057",
     "ghforks": "84",
     "size": "0.8 kB",
     "tweets": "30",
@@ -3832,8 +3849,8 @@ var MicroJS=[
     ],
     "description": "A presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.",
     "url": "https://github.com/bartaz/impress.js",
-    "ghwatchers": "15,918",
-    "ghforks": "2,997",
+    "ghwatchers": "15,951",
+    "ghforks": "3,008",
     "size": "2.5 kB",
     "tweets": "671",
     "xmlEncodedName": "impress.js"
@@ -3890,21 +3907,6 @@ var MicroJS=[
     "xmlEncodedName": "shotgun.js"
   },
   {
-    "name": "Underscore",
-    "tags": [
-      "functional",
-      "language",
-      "data"
-    ],
-    "description": "A utility-belt that provides functional programming support that you would expect in Ruby.",
-    "url": "http://underscorejs.org/",
-    "ghwatchers": "8,331",
-    "ghforks": "1,393",
-    "size": "4.5 kB",
-    "tweets": "863",
-    "xmlEncodedName": "Underscore"
-  },
-  {
     "name": "Loadrunner",
     "tags": [
       "loader"
@@ -3916,6 +3918,21 @@ var MicroJS=[
     "size": "2.8 kB",
     "tweets": "30",
     "xmlEncodedName": "Loadrunner"
+  },
+  {
+    "name": "Underscore",
+    "tags": [
+      "functional",
+      "language",
+      "data"
+    ],
+    "description": "A utility-belt that provides functional programming support that you would expect in Ruby.",
+    "url": "http://underscorejs.org/",
+    "ghwatchers": "8,355",
+    "ghforks": "1,397",
+    "size": "4.5 kB",
+    "tweets": "865",
+    "xmlEncodedName": "Underscore"
   },
   {
     "name": "an.hour.ago",
@@ -3977,7 +3994,7 @@ var MicroJS=[
     ],
     "description": "scaleApp is a tiny JavaScript framework for scalable one-page-applications",
     "url": "http://scaleapp.org/",
-    "ghwatchers": "107",
+    "ghwatchers": "108",
     "ghforks": "11",
     "size": "3.4 kB",
     "tweets": "25",
@@ -4021,7 +4038,7 @@ var MicroJS=[
     ],
     "description": "Flexible pubsub-ish framework for handling namespaced events.",
     "url": "http://www.thejacklawson.com/Mediator.js",
-    "ghwatchers": "117",
+    "ghwatchers": "119",
     "ghforks": "27",
     "size": "1.2 kB",
     "tweets": "0",
@@ -4049,7 +4066,7 @@ var MicroJS=[
     ],
     "description": "A platform detection library that works on nearly all JavaScript platforms.",
     "url": "https://github.com/bestiejs/platform.js",
-    "ghwatchers": "230",
+    "ghwatchers": "231",
     "ghforks": "10",
     "size": "4.5 kB",
     "tweets": "19",
@@ -4065,7 +4082,7 @@ var MicroJS=[
     ],
     "description": "A tiny high-performance JavaScript 2D/3D polyline simplification library.",
     "url": "http://mourner.github.io/simplify-js/",
-    "ghwatchers": "334",
+    "ghwatchers": "337",
     "ghforks": "19",
     "size": "0.5 kB",
     "tweets": "32",
@@ -4107,8 +4124,8 @@ var MicroJS=[
     ],
     "description": "JavaScript Alert/Notification System.",
     "url": "https://github.com/fabien-d/alertify.js",
-    "ghwatchers": "2,614",
-    "ghforks": "316",
+    "ghwatchers": "2,624",
+    "ghforks": "317",
     "size": "2.6 kB",
     "tweets": "174",
     "xmlEncodedName": "alertify.js"
@@ -4209,27 +4226,11 @@ var MicroJS=[
     ],
     "description": "A (animated) javascript progress bar without dependencies.",
     "url": "https://github.com/mdix/progress.js",
-    "ghwatchers": "21",
+    "ghwatchers": "22",
     "ghforks": "4",
     "size": "0.7 kB",
     "tweets": "5",
     "xmlEncodedName": "progress.js"
-  },
-  {
-    "name": "Callbacks.js",
-    "tags": [
-      "events",
-      "dispatcher",
-      "static",
-      "callbacks"
-    ],
-    "url": "https://github.com/dperrymorrow/callbacks.js",
-    "description": "Event dispatching, can be used either as static or instance based.",
-    "ghwatchers": "7",
-    "ghforks": "2",
-    "size": "0.3 kB",
-    "tweets": "0",
-    "xmlEncodedName": "Callbacks.js"
   },
   {
     "name": "OneDollar.js",
@@ -4249,6 +4250,22 @@ var MicroJS=[
     "size": "1.7 kB",
     "tweets": "12",
     "xmlEncodedName": "OneDollar.js"
+  },
+  {
+    "name": "Callbacks.js",
+    "tags": [
+      "events",
+      "dispatcher",
+      "static",
+      "callbacks"
+    ],
+    "url": "https://github.com/dperrymorrow/callbacks.js",
+    "description": "Event dispatching, can be used either as static or instance based.",
+    "ghwatchers": "7",
+    "ghforks": "2",
+    "size": "0.3 kB",
+    "tweets": "0",
+    "xmlEncodedName": "Callbacks.js"
   },
   {
     "name": "mathmethods",
@@ -4288,7 +4305,7 @@ var MicroJS=[
     ],
     "description": "Make your dom elements draggable easily.",
     "url": "http://gtramontina.github.io/draggable.js/",
-    "ghwatchers": "32",
+    "ghwatchers": "33",
     "ghforks": "13",
     "size": "0.8 kB",
     "tweets": "0",
@@ -4423,7 +4440,7 @@ var MicroJS=[
     ],
     "description": "Evented JavaScript for the browser",
     "url": "https://github.com/Wolfy87/EventEmitter",
-    "ghwatchers": "340",
+    "ghwatchers": "341",
     "ghforks": "38",
     "size": "0.7 kB",
     "tweets": "36",
@@ -4504,7 +4521,7 @@ var MicroJS=[
     "description": "A tiny implementation of the Promises/A+ specification.",
     "url": "https://github.com/timjansen/pinkyswear.js",
     "ghwatchers": "15",
-    "ghforks": "4",
+    "ghforks": "5",
     "size": "0.4 kB",
     "tweets": "0",
     "xmlEncodedName": "PinkySwear.js"
@@ -4533,7 +4550,7 @@ var MicroJS=[
     ],
     "description": "A finite state machine, useful in game development",
     "url": "https://github.com/jakesgordon/javascript-state-machine",
-    "ghwatchers": "739",
+    "ghwatchers": "743",
     "ghforks": "84",
     "size": "1.2 kB",
     "tweets": "60",
@@ -4563,7 +4580,7 @@ var MicroJS=[
     ],
     "description": "Powerful JavaScript URL routing/dispatch for server-side and client-side applications.",
     "url": "http://millermedeiros.github.io/crossroads.js/",
-    "ghwatchers": "534",
+    "ghwatchers": "536",
     "ghforks": "56",
     "size": "2.8 kB",
     "tweets": "5",
@@ -4595,7 +4612,7 @@ var MicroJS=[
     ],
     "description": "A lightweight JavaScript library for number, money and currency formatting - fully localisable, zero dependencies.",
     "url": "http://josscrowcroft.github.io/accounting.js/",
-    "ghwatchers": "1,128",
+    "ghwatchers": "1,129",
     "ghforks": "85",
     "size": "1.2 kB",
     "tweets": "16",
@@ -4658,7 +4675,7 @@ var MicroJS=[
     ],
     "description": "A lightweight cookie library",
     "url": "https://github.com/jgallen23/cookie-monster",
-    "ghwatchers": "32",
+    "ghwatchers": "33",
     "ghforks": "9",
     "size": "0.5 kB",
     "tweets": "3",
@@ -4776,8 +4793,8 @@ var MicroJS=[
     ],
     "description": "Smooooooth JavaScript charts for realtime streaming data",
     "url": "http://smoothiecharts.org/",
-    "ghwatchers": "812",
-    "ghforks": "56",
+    "ghwatchers": "813",
+    "ghforks": "57",
     "size": "2.4 kB",
     "tweets": "316",
     "xmlEncodedName": "Smoothie Charts"
@@ -4809,8 +4826,8 @@ var MicroJS=[
     ],
     "description": "Semantic template engine for the browser that maps JSON objects to DOM elements by id, class and data-bind attributes.",
     "url": "https://github.com/leonidas/transparency",
-    "ghwatchers": "434",
-    "ghforks": "61",
+    "ghwatchers": "436",
+    "ghforks": "62",
     "size": "0.6 kB",
     "tweets": "38",
     "xmlEncodedName": "Transparency.js"
@@ -4870,7 +4887,7 @@ var MicroJS=[
     "description": "A library for adding remoteStorage support to your client-side app.",
     "url": "https://github.com/RemoteStorage/remoteStorage.js",
     "ghwatchers": "444",
-    "ghforks": "49",
+    "ghforks": "50",
     "size": "1.3 kB",
     "tweets": "0",
     "xmlEncodedName": "remoteStorage.js"
