@@ -916,6 +916,8 @@
 
   search()
   $ineed.style.display = '';
+  $ineedText.focus()
+  window.setTimeout(hideopt,10)
 
 })() : render(MicroJS) // fallback for old browsers, you don't deserve the sweetness!
 
@@ -958,7 +960,7 @@ var toggleColorMode = function () {
   }
 }
 
-  </script>
+</script>
 
 <script>
   var _gauges = _gauges || [];
