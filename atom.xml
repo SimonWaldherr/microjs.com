@@ -2903,5 +2903,29 @@
 		<updated>2013-06-12'T'01:33:32Z</updated>
 		<summary>Build your own framework from scratch</summary>
 	</entry>
+	<entry>
+		<title>goo.js</title>
+		<link href="http://www.storminthecastle.com/projects/goo.js/" />
+		<id>urn:uuid:976fba10-e69a-11e2-8b44-936962a367bf</id>
+		<updated>2013-07-07'T'00:17:15Z</updated>
+		<summary>Microlibrary that makes it quick and easy to draw using the HTML5 Canvas API/</summary>
+	</entry>
+
+	<entry>
+		<title>DOMpteur</title>
+		<link href="https://github.com/SimonWaldherr/DOMpteur" />
+		<id>urn:uuid:97702f40-e69a-11e2-8b44-936962a367bf</id>
+		<updated>2013-07-07'T'00:17:15Z</updated>
+		<summary>play with the Document Object Model (DOM) tree - change and insert Elements.</summary>
+	</entry>
+
+	<entry>
+		<title>chronology.js</title>
+		<link href="http://chronology.wout.co.uk" />
+		<id>urn:uuid:a07b1870-e69a-11e2-8b44-936962a367bf</id>
+		<updated>2013-07-07'T'00:17:15Z</updated>
+		<summary>A micro javascript library for managing an undo/redo history.</summary>
+	</entry>
+
 
 </feed>
