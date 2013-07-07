@@ -15,7 +15,15 @@ var MicroJS = [
     description: "Microlibrary that makes it quick and easy to draw using the HTML5 Canvas API/",
     url: "http://www.storminthecastle.com/projects/goo.js/",
     source: "https://raw.github.com/johnrobinsn/goo.js/master/src/goo.js"
-  },  
+  },
+  {
+    name: "store",
+    github: "nbubna/store",
+    tags: ["localStorage", "sessionStorage", "JSON", "namespace", "API", "extensible"],
+    description: "A better API for using localStorage and sessionStorage.",
+    url: "https://github.com/nbubna/store",
+    source: "https://raw.github.com/nbubna/store/master/dist/store2.js"
+  },
   {
     name: "sawkit-client",
     github: "cScarlson/sawkit-client",
