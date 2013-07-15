@@ -2951,5 +2951,21 @@
 		<summary>Phonetically encode w/ DoubleMetaphone algorithm (&apos;Alexander&apos; -&gt; &apos;ALKS&apos;)</summary>
 	</entry>
 
+	<entry>
+		<title>loglevel</title>
+		<link href="https://github.com/pimterry/loglevel" />
+		<id>urn:uuid:e5137380-ed50-11e2-be17-959aeadaafb7</id>
+		<updated>2013-07-15'T'13:17:23Z</updated>
+		<summary>Minimal lightweight logging for JavaScript, adding reliable log level methods to wrap any available console.log methods</summary>
+	</entry>
+
+	<entry>
+		<title>attach.js</title>
+		<link href="http://nicbell.github.io/attach.js/" />
+		<id>urn:uuid:e5f10240-ed50-11e2-be17-959aeadaafb7</id>
+		<updated>2013-07-15'T'13:17:23Z</updated>
+		<summary>A DOM instantiation API designed to tidy up and encapsulate attaching JavaScript to the page.</summary>
+	</entry>
+
 
 </feed>
