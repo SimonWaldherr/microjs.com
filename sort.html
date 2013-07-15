@@ -12,17 +12,25 @@
   </style>
   <script>
     function valueOfString(string) {
-        var chars, int = 0, i, length;
-        for(i=0;i<string.length;i+=1) {
-            int = int+parseInt(string.charCodeAt(i),10);
-        }
-        return parseInt(int, 10);
+      var chars,
+        intv = 0,
+        i,
+        length;
+
+      for(i = 0; i < string.length; i += 1) {
+          intv = intv + parseInt(string.charCodeAt(i) * Math.pow(string.length - i), 10);
+      }
+      return parseInt(intv, 10);
     }
-    
+
     function init() {
-      document.getElementById('foo').innerHTML = 'var MicroJS='+JSON.stringify(MicroJS.sort(function(a,b) { return valueOfString(a.name) - valueOfString(b.name) } ), null, '  ').replace(/},{/g, '},\n<br/>\n{').replace(/\",\"/g, '",\n<br/>\n"')+';\n\n<br/>';
+      document.getElementById('foo').innerHTML = 'var MicroJS='+JSON.stringify(MicroJS.sort(
+        function(a,b) {
+          return valueOfString(a.name) - valueOfString(b.name) 
+        } 
+      ), null, '  ').replace(/},{/g, '},\n<br/>\n{').replace(/\",\"/g, '",\n<br/>\n"')+';\n\n<br/>';
     }
-    
+
   </script>
 </head>
 <body onload="init();">

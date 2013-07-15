@@ -12,19 +12,29 @@
   </style>
   <script>
     function valueOfString(string) {
-        var chars, int = 0, i, length;
-        for(i=0;i<string.length;i+=1) {
-            int = int+parseInt(string.charCodeAt(i),10);
-        }
-        return parseInt(int, 10);
+      var chars,
+        intv = 0,
+        i,
+        length;
+
+      for(i = 0; i < string.length; i += 1) {
+          intv = intv + parseInt(string.charCodeAt(i) * Math.pow(string.length - i), 10);
+      }
+      return parseInt(intv, 10);
     }
-    
+
     function init() {
-      var temp, array, i, forks, watchers, size;
+      var temp,
+        array,
+        i,
+        forks,
+        watchers,
+        size;
+
       temp = "name;watchers;forks;tweets;size;url\n";
       array = MicroJS.sort(function(a,b) { return valueOfString(a.name) - valueOfString(b.name) } );
       i = 0;
-      
+
       for(i = 0; i < array.length; i++) {
         size = parseFloat(array[i].size);
         forks = array[i].ghforks === undefined ? 0 : array[i].ghforks;
@@ -34,7 +44,7 @@
       
       document.getElementById('foo').innerHTML = temp+'\n';
     }
-    
+
   </script>
 </head>
 <body onload="init();">
