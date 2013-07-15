@@ -18,7 +18,7 @@
         length;
 
       for(i = 0; i < string.length; i += 1) {
-          intv = intv + parseInt(string.charCodeAt(i) * Math.pow(string.length - i), 10);
+          intv = intv + parseInt(string.charCodeAt(i) * Math.pow(10, string.length - i), 10);
       }
       return parseInt(intv, 10);
     }
@@ -26,7 +26,7 @@
     function init() {
       document.getElementById('foo').innerHTML = 'var MicroJS='+JSON.stringify(MicroJS.sort(
         function(a,b) {
-          return valueOfString(a.name) - valueOfString(b.name) 
+          return valueOfString(a.url) - valueOfString(b.url);
         } 
       ), null, '  ').replace(/},{/g, '},\n<br/>\n{').replace(/\",\"/g, '",\n<br/>\n"')+';\n\n<br/>';
     }

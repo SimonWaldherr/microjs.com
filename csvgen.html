@@ -18,7 +18,7 @@
         length;
 
       for(i = 0; i < string.length; i += 1) {
-          intv = intv + parseInt(string.charCodeAt(i) * Math.pow(string.length - i), 10);
+          intv = intv + parseInt(string.charCodeAt(i) * Math.pow(10, string.length - i), 10);
       }
       return parseInt(intv, 10);
     }
@@ -32,7 +32,7 @@
         size;
 
       temp = "name;watchers;forks;tweets;size;url\n";
-      array = MicroJS.sort(function(a,b) { return valueOfString(a.name) - valueOfString(b.name) } );
+      array = MicroJS.sort(function(a,b) { return valueOfString(a.url) - valueOfString(b.url) } );
       i = 0;
 
       for(i = 0; i < array.length; i++) {
