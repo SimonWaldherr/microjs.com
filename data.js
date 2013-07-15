@@ -948,7 +948,8 @@ var MicroJS = [
     tags: ["canvas", "graphics"],
     description: "LOGO-inspired canvas drawing lib, adds method chaining and polar coordinates for added fun.",
     url: "https://github.com/davebalmer/turtlewax",
-    source: "https://raw.github.com/davebalmer/turtlewax/master/pen.js" // also needs an extra, small, hsv.js
+    source: ["https://raw.github.com/davebalmer/turtlewax/master/pen.js",
+             "https://raw.github.com/davebalmer/turtlewax/master/hsv.js"]
   },
   {
     name: "picoCSS",
@@ -1390,14 +1391,6 @@ var MicroJS = [
     url: "http://mikemctiernan.github.io/Janis/",
     source: "https://raw.github.com/MikeMcTiernan/Janis/master/janis.js"
   },
-  // requires Underscore, dependency allowed?
-  {
-    name: "extend.js",
-    tags: ["base", "language", "feature"],
-    description: "A simple way to define and extend namespaces",
-    url: "https://github.com/searls/extend.js",
-    source: "https://raw.github.com/searls/extend.js/master/src/extend.js"
-  },
   {
     name: "System.js",
     tags: ["feature"],
@@ -1656,7 +1649,8 @@ var MicroJS = [
     tags: ["osf", "markup", "parser", "html", "shownotes", "mp4chaps", "podcast"],
     description: "a few lines of code to convert OSF to HTML.",
     url: "https://github.com/simonwaldherr/tinyOSF.js",
-    source: ["https://raw.github.com/simonwaldherr/tinyOSF.js/master/tinyosf.js", "https://raw.github.com/SimonWaldherr/tinyOSF.js/master/tinyosf_exportmodules.js"]
+    source: ["https://raw.github.com/simonwaldherr/tinyOSF.js/master/tinyosf.js",
+             "https://raw.github.com/SimonWaldherr/tinyOSF.js/master/tinyosf_exportmodules.js"]
   },
   {
     name: "mathmethods",
@@ -2741,5 +2735,12 @@ var MicroJS = [
     description: "A micro javascript library for managing an undo/redo history.",
     url: "http://chronology.wout.co.uk",
     source: "https://raw.github.com/wout/chronology.js/master/chronology.js"
+  },
+  {
+    name: "DoubleMetaphone",
+    tags: ["phonetic", "metaphone", "codec", "sounds", "like"],
+    description: "Phonetically encode w/ DoubleMetaphone algorithm ('Alexander' -> 'ALKS')",
+    url: "https://github.com/hgoebl/doublemetaphone",
+    source: "https://raw.github.com/hgoebl/doublemetaphone/master/doublemetaphone.js"
   }
 ];
