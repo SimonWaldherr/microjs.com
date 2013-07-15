@@ -2935,5 +2935,13 @@
 		<summary>A better way to use localStorage and sessionStorage.</summary>
 	</entry>
 
+	<entry>
+		<title>parseTime.js</title>
+		<link href="https://github.com/SimonWaldherr/parseTime.js" />
+		<id>urn:uuid:4731b1c0-ed4d-11e2-8298-4701d0be6f3d</id>
+		<updated>2013-07-15'T'12:51:23Z</updated>
+		<summary>convert strings like &quot;five days ago&quot; to an integer (with time in milliseconds) in two languages (en, de)</summary>
+	</entry>
+
 
 </feed>
