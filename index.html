@@ -824,21 +824,28 @@
         e && keydownListener({ keyCode: 13 })
       }
     , keydownDelayed = cumulativeDelayed(function () { search() }, 250)
-    , showsearch = function () { showopt(); search() }
+    , showsearch = function () {
+        showopt();
+        search();
+      }
       // make our pseudo-select box work as if it was a real select box
     , keydownListener = function (e) {
         switch (e.keyCode) {
           case 38: //up
-            showsearch(); selectUp()
+            showsearch();
+            selectUp();
             break;
           case 40: //down
-            showsearch(); selectDown()
+            showsearch();
+            selectDown();
             break;
           case 13: //return
-            hideopt(); search()
+            hideopt();
+            search();
             break;
           default:
-            hideopt(); keydownDelayed()
+            hideopt();
+            keydownDelayed();
         }
       }
       // arrow-up
@@ -907,24 +914,23 @@
   $ineedSelect.addEventListener('click', selectListener, false)
 
   ;(function(kw) {
-    if (!kw) return
+    if (!kw) {
+      return;
+    }
     for (var i = 0; i < options.length; i++) {
       if (kw == options[i].tag) { kw = options[i].label; break; }
     }
-    $ineedText.value = kw
-  }(location.href.split('#')[1]))
+    $ineedText.value = kw;
+  }(location.href.split('#')[1]));
 
-  search()
+  search();
   $ineed.style.display = '';
-  $ineedText.focus()
-  window.setTimeout(hideopt,10)
+  $ineedText.focus();
+  window.setTimeout(hideopt,10);
 
-})() : render(MicroJS) // fallback for old browsers, you don't deserve the sweetness!
+})() : render(MicroJS); // fallback for old browsers, you don't deserve the sweetness!
 
 })();
-
-document.getElementById('ineed_text').focus();
-document.getElementById('ineed_select').style.display = 'none';
 
 var toggleTagVisibility = function () {
   var tagStyleElement = document.getElementById('tagVisibility');
