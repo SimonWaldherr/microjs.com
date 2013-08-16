@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Microjs</title>
-  <subtitle>Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!</subtitle>
-  <link href="http://microjs.com/atom.xml" rel="self" />
-  <link href="http://microjs.com/" />
-  <id>urn:uuid:15dfd290-5830-11e1-be28-87435970e5ad</id>
-  <updated>2003-12-13T18:30:02Z</updated>
-  <author>
-    <name>Thomas Fuchs</name>
-  </author>
+	<title>Microjs</title>
+	<subtitle>Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!</subtitle>
+	<link href="http://microjs.com/atom.xml" rel="self" />
+	<link href="http://microjs.com/" />
+	<id>urn:uuid:15dfd290-5830-11e1-be28-87435970e5ad</id>
+	<updated>2003-12-13T18:30:02Z</updated>
+	<author>
+		<name>Thomas Fuchs</name>
+	</author>
 
 	<entry>
 		<title>Simplify.js</title>
@@ -1424,7 +1424,7 @@
 		<id>urn:uuid:11daea50-6711-11e1-85ca-438f8c211b62</id>
 		<updated>2012-03-05'T'22:17:51Z</updated>
 		<summary>Javascript mvc framework that is meant to help developers to write loosely-coupled applications to increase scalability and maintainability.</summary>
-  </entry>
+	</entry>
 
 	<entry>
 		<title>doT.js</title>
@@ -2825,22 +2825,6 @@
 	</entry>
 
 	<entry>
-		<title>majaX.js</title>
-		<link href="https://github.com/SimonWaldherr/majaX.js" />
-		<id>urn:uuid:40fad740-c6d9-11e2-bba8-77a3191814b4</id>
-		<updated>2013-05-27'T'14:25:03Z</updated>
-		<summary>make AJAX Requests and return (parsed) values.</summary>
-	</entry>
-
-	<entry>
-		<title>cryptofoo</title>
-		<link href="https://github.com/SimonWaldherr/cryptofoo" />
-		<id>urn:uuid:8ce461a0-cc9f-11e2-8c4b-bd9cfa335782</id>
-		<updated>2013-06-03'T'22:47:03Z</updated>
-		<summary>A good compromise between speed and validity to hash strings</summary>
-	</entry>
-	
-	<entry>
 		<title>ScriptInclude</title>
 		<link href="https://github.com/EvanHahn/ScriptInclude" />
 		<id>urn:uuid:20dea8a0-d300-11e2-8a6d-073e2c9a82a6</id>
@@ -2903,29 +2887,6 @@
 		<updated>2013-06-12'T'01:33:32Z</updated>
 		<summary>Build your own framework from scratch</summary>
 	</entry>
-	<entry>
-		<title>goo.js</title>
-		<link href="http://www.storminthecastle.com/projects/goo.js/" />
-		<id>urn:uuid:976fba10-e69a-11e2-8b44-936962a367bf</id>
-		<updated>2013-07-07'T'00:17:15Z</updated>
-		<summary>Microlibrary that makes it quick and easy to draw using the HTML5 Canvas API/</summary>
-	</entry>
-
-	<entry>
-		<title>DOMpteur</title>
-		<link href="https://github.com/SimonWaldherr/DOMpteur" />
-		<id>urn:uuid:97702f40-e69a-11e2-8b44-936962a367bf</id>
-		<updated>2013-07-07'T'00:17:15Z</updated>
-		<summary>play with the Document Object Model (DOM) tree - change and insert Elements.</summary>
-	</entry>
-
-	<entry>
-		<title>chronology.js</title>
-		<link href="http://chronology.wout.co.uk" />
-		<id>urn:uuid:a07b1870-e69a-11e2-8b44-936962a367bf</id>
-		<updated>2013-07-07'T'00:17:15Z</updated>
-		<summary>A micro javascript library for managing an undo/redo history.</summary>
-	</entry>
 
 	<entry>
 		<title>store</title>
@@ -2936,11 +2897,11 @@
 	</entry>
 
 	<entry>
-		<title>parseTime.js</title>
-		<link href="https://github.com/SimonWaldherr/parseTime.js" />
-		<id>urn:uuid:4731b1c0-ed4d-11e2-8298-4701d0be6f3d</id>
-		<updated>2013-07-15'T'12:51:23Z</updated>
-		<summary>convert strings like &quot;five days ago&quot; to an integer (with time in milliseconds) in two languages (en, de)</summary>
+		<title>chronology.js</title>
+		<link href="http://chronology.wout.co.uk" />
+		<id>urn:uuid:4a306800-d7f2-11e2-829c-ef996d6f21ef</id>
+		<updated>2013-06-18'T'08:36:56Z</updated>
+		<summary>A micro javascript library for managing an undo/redo history.</summary>
 	</entry>
 
 	<entry>
@@ -2952,19 +2913,170 @@
 	</entry>
 
 	<entry>
-		<title>loglevel</title>
-		<link href="https://github.com/pimterry/loglevel" />
-		<id>urn:uuid:e5137380-ed50-11e2-be17-959aeadaafb7</id>
-		<updated>2013-07-15'T'13:17:23Z</updated>
-		<summary>Minimal lightweight logging for JavaScript, adding reliable log level methods to wrap any available console.log methods</summary>
+		<title>Satnav</title>
+		<link href="https://github.com/f5io/satnav-js" />
+		<id>urn:uuid:ba7d4950-fdbf-11e2-ad0e-1710a1f4642c</id>
+		<updated>2013-08-05'T'11:11:07Z</updated>
+		<summary>A micro (~1.5kb gzipped) JS routing library. Satnav provides functionality for Regex-like paths in JavaScript.</summary>
+	</entry>
+
+	<entry>
+		<title>RaptorJS</title>
+		<link href="http://raptorjs.org/modules-classes/developer-guide/" />
+		<id>urn:uuid:c2d1e780-0375-11e3-824c-c33cbf24dd79</id>
+		<updated>2013-08-12'T'17:36:25Z</updated>
+		<summary>The core module of RaptorJS provides a lightweight module system that supports namespacing, AMD, class inheritance, mixins, enums and lazy initialization. Works in the browser and Node.js</summary>
 	</entry>
 
 	<entry>
 		<title>attach.js</title>
 		<link href="http://nicbell.github.io/attach.js/" />
-		<id>urn:uuid:e5f10240-ed50-11e2-be17-959aeadaafb7</id>
-		<updated>2013-07-15'T'13:17:23Z</updated>
+		<id>urn:uuid:9f69bd90-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
 		<summary>A DOM instantiation API designed to tidy up and encapsulate attaching JavaScript to the page.</summary>
+	</entry>
+
+	<entry>
+		<title>mediahack.js</title>
+		<link href="https://github.com/pomke/mediahack" />
+		<id>urn:uuid:9f69e4a0-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Add media-query classes to DOM nodes</summary>
+	</entry>
+
+	<entry>
+		<title>loglevel</title>
+		<link href="https://github.com/pimterry/loglevel" />
+		<id>urn:uuid:9f6a0bb0-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Minimal lightweight logging for JavaScript, adding reliable log level methods to wrap any available console.log methods</summary>
+	</entry>
+
+	<entry>
+		<title>goo.js</title>
+		<link href="http://www.storminthecastle.com/projects/goo.js/" />
+		<id>urn:uuid:9f6a0bb1-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Microlibrary that makes it quick and easy to draw using the HTML5 Canvas API/</summary>
+	</entry>
+
+	<entry>
+		<title>Oboe.js</title>
+		<link href="https://github.com/jimhigson/oboe.js" />
+		<id>urn:uuid:9f6a32c0-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Library for progressive parsing of ajax responses. Provides notification of objects found without waiting for the request to complete.</summary>
+	</entry>
+
+	<entry>
+		<title>parseTime.js</title>
+		<link href="https://github.com/SimonWaldherr/parseTime.js" />
+		<id>urn:uuid:a0187420-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>convert strings like &quot;five days ago&quot; to an integer (with time in milliseconds) in three languages (en, de, pt)</summary>
+	</entry>
+
+	<entry>
+		<title>DOMpteur</title>
+		<link href="https://github.com/SimonWaldherr/DOMpteur" />
+		<id>urn:uuid:a0d3fbf0-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>play with the Document Object Model (DOM) tree - change and insert Elements.</summary>
+	</entry>
+
+	<entry>
+		<title>Async</title>
+		<link href="https://github.com/caolan/async" />
+		<id>urn:uuid:a7c61740-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript.</summary>
+	</entry>
+
+	<entry>
+		<title>tiny-lru.js</title>
+		<link href="https://github.com/avoidwork/tiny-lru" />
+		<id>urn:uuid:aabd3730-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Least Recently Used cache</summary>
+	</entry>
+
+	<entry>
+		<title>es5-class</title>
+		<link href="https://github.com/bfil/es5-class" />
+		<id>urn:uuid:abcd47a0-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Native prototypal inheritance for Node.js and ES5-enabled Browsers</summary>
+	</entry>
+
+	<entry>
+		<title>Pledges</title>
+		<link href="https://github.com/ryansmith94/Pledges" />
+		<id>urn:uuid:af7715c0-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>A JavaScript micro-library that provides promise functionality.</summary>
+	</entry>
+
+	<entry>
+		<title>SVGEventListener</title>
+		<link href="https://github.com/madsgraphics/SVGEventListener" />
+		<id>urn:uuid:af88f010-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>A polyfill for animate events on SVG on non-supported browsers, like webkit engines</summary>
+	</entry>
+
+	<entry>
+		<title>Commuinst</title>
+		<link href="https://github.com/calvinmetcalf/catiline" />
+		<id>urn:uuid:afb38280-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Web workers, but easy.</summary>
+	</entry>
+
+	<entry>
+		<title>civem.js</title>
+		<link href="https://github.com/javanto/civem.js" />
+		<id>urn:uuid:afb3d0a0-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>Custom error messages for HTML5 form validation.</summary>
+	</entry>
+
+	<entry>
+		<title>i18nText</title>
+		<link href="https://bitbucket.org/vogdb/i18n-text" />
+		<id>urn:uuid:afb81660-0659-11e3-8df7-57cadfb7cb41</id>
+		<updated>2013-08-16'T'09:52:47Z</updated>
+		<summary>A JavaScript library for i18n text messages.</summary>
+	</entry>
+
+	<entry>
+		<title>MinifiedJS</title>
+		<link href="http://minifiedjs.com/" />
+		<id>urn:uuid:ee41cd80-065a-11e3-b41e-69e69a647677</id>
+		<updated>2013-08-16'T'10:01:40Z</updated>
+		<summary>Minified.js is a client-side JavaScript library, comparable to jQuery and MooTools in scope. Its features include DOM manipulation, animation, events, cookies and HTTP requests</summary>
+	</entry>
+
+	<entry>
+		<title>thenBy</title>
+		<link href="https://github.com/Teun/thenBy.js" />
+		<id>urn:uuid:1687c000-065c-11e3-8f11-f9bf472ecd33</id>
+		<updated>2013-08-16'T'10:09:56Z</updated>
+		<summary>Enable firstBy().thenBy().thenBy() sorting of arrays using the standard Array.sort</summary>
+	</entry>
+	<entry>
+		<title>cryptofoo</title>
+		<link href="https://github.com/SimonWaldherr/cryptofoo" />
+		<id>urn:uuid:cc93b9d0-0684-11e3-b519-a1da06938c59</id>
+		<updated>2013-08-16'T'15:01:42Z</updated>
+		<summary>A good compromise between speed and validity to hash strings</summary>
+	</entry>
+
+	<entry>
+		<title>Catiline</title>
+		<link href="http://catilinejs.com" />
+		<id>urn:uuid:cd10b200-0684-11e3-b519-a1da06938c59</id>
+		<updated>2013-08-16'T'15:01:42Z</updated>
+		<summary>Web workers, but easy.</summary>
 	</entry>
 
 
