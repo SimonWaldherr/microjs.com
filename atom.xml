@@ -3079,5 +3079,29 @@
 		<summary>Web workers, but easy.</summary>
 	</entry>
 
+	<entry>
+		<title>Catiline</title>
+		<link href="http://catilinejs.com" />
+		<id>urn:uuid:994e3bc0-07d0-11e3-af0f-112e290caa6f</id>
+		<updated>2013-08-18'T'06:36:30+00:00</updated>
+		<summary>Web workers, but easy.</summary>
+	</entry>
+
+	<entry>
+		<title>Lie</title>
+		<link href="https://github.com/calvinmetcalf/lie" />
+		<id>urn:uuid:294b0e20-07d5-11e3-a1b5-dff74eff8be7</id>
+		<updated>2013-08-18'T'07:09:07+00:00</updated>
+		<summary>A very small library for promises</summary>
+	</entry>
+
+	<entry>
+		<title>assure.js</title>
+		<link href="https://github.com/avoidwork/assure" />
+		<id>urn:uuid:6aef6b60-07d9-11e3-b92c-35f09178402a</id>
+		<updated>2013-08-18'T'07:39:25+00:00</updated>
+		<summary>Promises/A+ micro library to help with asynchronous work flow.</summary>
+	</entry>
+
 
 </feed>

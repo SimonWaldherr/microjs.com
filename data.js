@@ -7,7 +7,7 @@
 // also be just the raw JS if it's small enough, an array of source files or a ZIP file.
 // See examples below.
 
-var MicroJS = [
+module.exports = [
   {
     name: "store",
     github: "nbubna/store",
@@ -94,7 +94,7 @@ var MicroJS = [
     tags: ["string", "remove", "cleanup", "redundant", "gibberish", "trim"],
     description: "Small but powerful string cleanup and reduction library.",
     url: "https://github.com/scrapmac/snippets/tree/master/remove.js",
-    source: "https://github.com/scrapmac/snippets/raw/master/remove.js/remove.js"
+    source: "https://raw.github.com/scrapmac/snippets/master/remove.js/remove.js"
   },
   {
     name: "ImageFlip.js",
@@ -570,7 +570,7 @@ var MicroJS = [
     tags: ["async", "node.js", "watch", "flow", "flow control"],
     description: "Monitor multiple async operations and triggers when all or some are complete.",
     url: "https://github.com/thanpolas/ready.js",
-    source: "https://github.com/thanpolas/ready.js/raw/master/lib/ready.js"
+    source: "https://raw.github.com/thanpolas/ready.js/master/lib/ready.js"
   },
   {
     name: "MinPubSub",
@@ -1889,7 +1889,7 @@ var MicroJS = [
     tags: ["nodejs", "browsers", "templating", "partials", "custom delimiters"],
     description: "The fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.",
     url: "https://github.com/olado/doT",
-    source: "https://github.com/olado/doT/raw/master/doT.js"
+    source: "https://raw.github.com/olado/doT/master/doT.js"
   },
   {
     name: "Stapes.js",
@@ -2416,7 +2416,7 @@ var MicroJS = [
     tags: ["events"],
     description: "Keyboard shortcuts handling with support for key sequences.",
     url: "https://github.com/piranha/keymage",
-    source: "https://github.com/piranha/keymage/raw/master/keymage.js"
+    source: "https://raw.github.com/piranha/keymage/master/keymage.js"
   },
   {
     name: "Chic",
@@ -2875,5 +2875,19 @@ var MicroJS = [
     description: "The core module of RaptorJS provides a lightweight module system that supports namespacing, AMD, class inheritance, mixins, enums and lazy initialization. Works in the browser and Node.js",
     url: "https://github.com/raptorjs/raptorjs",
     source: "http://raptorjs.org/dist/raptor.js"
+  },
+  {
+    name: "Lie",
+    tags: ["promise", "deferred","async"],
+    description: "A very small library for promises",
+    url: "https://github.com/calvinmetcalf/lie",
+    source: "https://raw.github.com/calvinmetcalf/lie/master/dist/lie.js"
+  },
+  {
+    name: "assure.js",
+    tags: ["promises", "promise", "deferred", "deferreds", "aynchronous", "async"],
+    description: "Promises/A+ micro library to help with asynchronous work flow.",
+    url: "https://github.com/avoidwork/assure",
+    source: "https://raw.github.com/avoidwork/assure/master/lib/assure.js"
   }
 ];
